@@ -26,6 +26,9 @@
 static const size_t APP_MSG_SIZE_INBOUND = IF_APLITE_ELSE(1024, 2044);
 static const size_t APP_MSG_SIZE_OUTBOUND = 1024;
 
+
+
+
 typedef enum VibeType VibeType;
 
 enum VibeType {
@@ -203,7 +206,10 @@ static void handle_image_packet(Simply *simply, Packet *data) {
 
 static void handle_vibe_packet(Simply *simply, Packet *data) {
 
-
+#define DOT 200
+#define DASH 600
+#define PAUSE 400
+ int speed = 200;
 
   VibePacket *packet = (VibePacket*) data;
   switch (packet->type) {
@@ -211,43 +217,43 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
     case VibeLong: vibes_long_pulse(); break;
     case VibeDouble: vibes_double_pulse(); break;
     case VibeA: {
-      static const uint32_t const segments[] = { 200, 400, 600 ,400};
+      static const uint32_t const segments[] = { DOT, PAUSE, DASH ,PAUSE};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 2800);
       break;
     }
     case VibeB: {
-      static const uint32_t const segments[] = { 600, 400, 200,400,200,400,200,400 };
+      static const uint32_t const segments[] = { DASH, PAUSE, DOT,PAUSE,DOT,PAUSE,DOT,PAUSE };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4400);
       break;
     }
     case VibeC: {
-      static const uint32_t const segments[] = { 600, 400, 200,400,600,400,200,400 };
+      static const uint32_t const segments[] = { DASH, PAUSE, DOT,PAUSE,DASH,PAUSE,DOT,PAUSE };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 4400);
       break;
     }
     case VibeD: {
-      static const uint32_t const segments[] = { 600, 400, 200,400,200,400 };
+      static const uint32_t const segments[] = { DASH, PAUSE, DOT,PAUSE,DOT,PAUSE };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 3400);
       break;
     }
     case VibeE: {
@@ -257,7 +263,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 1800);
       break;
     }
     case VibeF: {
@@ -267,7 +273,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 4000);
       break;
     }
     case VibeG: {
@@ -277,7 +283,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 3800);
       break;
     } 
     case VibeH: {
@@ -287,7 +293,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 3600);
       break;
     }  
     case VibeI: {
@@ -297,7 +303,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 2400);
       break;
     }  
     case VibeJ: {
@@ -307,7 +313,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 4800);
       break;
     }  
     case VibeK: {
@@ -317,7 +323,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 3800);
       break;
     }  
     case VibeL: {
@@ -327,7 +333,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 4000);
       break;
     }  
     case VibeM: {
@@ -337,7 +343,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 3200);
       break;
     }  
     case VibeN: {
@@ -347,7 +353,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed + 3000);
       break;
     }     
     case VibeO: {
@@ -357,7 +363,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4200);
       break;
     }
     case VibeP: {
@@ -367,7 +373,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4400);
       break;
     }  
     case VibeQ: {
@@ -377,7 +383,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4800);
       break;
     }  
     case VibeR: {
@@ -387,7 +393,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+3400);
       break;
     }   
     case VibeS: {
@@ -397,7 +403,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+3000);
       break;
     }  
     case VibeT: {
@@ -407,7 +413,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+2200);
       break;
     }  
     case VibeU: {
@@ -417,7 +423,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+3400);
       break;
     }    
     case VibeV: {
@@ -427,7 +433,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4000);
       break;
     } 
     case VibeW: {
@@ -437,7 +443,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+3800);
       break;
     }
     case VibeX: {
@@ -447,7 +453,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4400);
       break;
     } 
     case VibeY: {
@@ -457,7 +463,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4800);
       break;
     }   
     case VibeZ: {
@@ -467,7 +473,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4400);
       break;
     }   
     case VibePeriod: {
@@ -477,7 +483,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+6000);
       break;
     } 
     case VibeComma: {
@@ -487,7 +493,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+6400);
       break;
     } 
     case VibeColon: {
@@ -497,7 +503,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+6000);
       break;
     }
     case VibeQuestion: {
@@ -507,7 +513,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+5600);
       break;
     } 
     case VibeApostrophe: {
@@ -517,7 +523,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+4400);
       break;
     } 
     case VibeHyphen: {
@@ -527,7 +533,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+5600);
       break;
     } 
     case VibeSlash: {
@@ -537,7 +543,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+5000);
       break;
     }
     case VibeOpenParentheses: {
@@ -547,7 +553,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+6400);
       break;
     } 
     case VibeCloseParentheses: {
@@ -557,7 +563,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+6400);
       break;
     } 
     case VibeQuotes: {
@@ -567,7 +573,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+5600);
       break;
     }  
     case VibeAt: {
@@ -577,7 +583,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+6000);
       break;
     }  
     case VibeEquals: {
@@ -587,10 +593,11 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(4000);
+      psleep(speed+5600);
       break;
     }                                                                                                                       
   }
+   
 }
 
 static void handle_light_packet(Simply *simply, Packet *data) {
@@ -619,6 +626,8 @@ static bool simply_base_handle_packet(Simply *simply, Packet *packet) {
   }
   return false;
 }
+
+
 
 static void handle_packet(Simply *simply, Packet *packet) {
   if (simply_base_handle_packet(simply, packet)) { return; }

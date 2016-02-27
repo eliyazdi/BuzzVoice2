@@ -755,8 +755,9 @@ main.on('click', 'select', function(e){
     console.log('Error: ' + e.err);
     return;
   }
+      vibeText(e.transcription);
   main.body(e.transcription);
-    vibeText(e.transcription);
+
 
 });
 });

@@ -30,6 +30,8 @@ Simply *simply_init(void) {
   bool animated = false;
   window_stack_push(simply->splash->window, animated);
 
+  
+
   return simply;
 }
 
