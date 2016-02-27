@@ -30,6 +30,7 @@ var vibeText = function(text){
     console.log(i);
     console.log(text.charAt(i));
     Vibe.vibrate(text.charAt(i)); // this should be made lowercase
+    main.body.append(text.charAt(i));
   }
   
 };
