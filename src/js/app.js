@@ -719,7 +719,7 @@ var vibeText = function(text){
   Vibe.vibrate('l');
   Vibe.vibrate('l');
   Vibe.vibrate('o');*/
-  text.toLowerCase();
+  text = text.toLowerCase();
    console.log(text);
   for(var i=0;i<text.length;i++){
     console.log(i);
