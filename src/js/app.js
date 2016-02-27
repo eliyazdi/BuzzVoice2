@@ -41,9 +41,14 @@ main.on('click', 'select', function(e){
     return;
   }
    
- //main.body(e.transcription);
+ main.body(e.transcription);
 
-      vibeText(e.transcription);
+ main.on('click', 'up', function(e){
+
+  vibeText(main.body);
+  }
+
+      
 
 
 });
