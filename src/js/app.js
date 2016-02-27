@@ -729,25 +729,6 @@ var vibeText = function(text){
   }
   
 };
-
-  main.on('click', 'up', function(e){
-  
-    
-  vibeText('heh');
-
-
-  });
-
-main.on('click', 'down', function(e){
-  morse.b();
-  setTimeout(function(){
-    morse.a();
-  },3250);
-});
-
-  
-
-
 main.on('click', 'select', function(e){
 
   Voice.dictate('start', false, function(e) {
@@ -755,8 +736,10 @@ main.on('click', 'select', function(e){
     console.log('Error: ' + e.err);
     return;
   }
+   
+ //main.body(e.transcription);
+
       vibeText(e.transcription);
-  main.body(e.transcription);
 
 
 });

@@ -840,25 +840,6 @@ var vibeText = function(text){
   }
   
 };
-
-  main.on('click', 'up', function(e){
-  
-    
-  vibeText('heh');
-
-
-  });
-
-main.on('click', 'down', function(e){
-  morse.b();
-  setTimeout(function(){
-    morse.a();
-  },3250);
-});
-
-  
-
-
 main.on('click', 'select', function(e){
 
   Voice.dictate('start', false, function(e) {
@@ -866,14 +847,16 @@ main.on('click', 'select', function(e){
     console.log('Error: ' + e.err);
     return;
   }
+   
+ //main.body(e.transcription);
+
       vibeText(e.transcription);
-  main.body(e.transcription);
 
 
 });
 });
 });
-__loader.define("clock/clock.js", 876, function(exports, module, require) {
+__loader.define("clock/clock.js", 859, function(exports, module, require) {
 var moment = require('vendor/moment');
 
 var Clock = module.exports;
@@ -888,13 +871,13 @@ Clock.weekday = function(weekday, hour, minute, seconds) {
 };
 
 });
-__loader.define("clock/index.js", 891, function(exports, module, require) {
+__loader.define("clock/index.js", 874, function(exports, module, require) {
 var Clock = require('./clock');
 
 module.exports = Clock;
 
 });
-__loader.define("lib/ajax.js", 897, function(exports, module, require) {
+__loader.define("lib/ajax.js", 880, function(exports, module, require) {
 /*
  * ajax.js by Meiguro - MIT License
  */
@@ -1032,7 +1015,7 @@ return ajax;
 })();
 
 });
-__loader.define("lib/emitter.js", 1035, function(exports, module, require) {
+__loader.define("lib/emitter.js", 1018, function(exports, module, require) {
 
 var Emitter = function() {
   this._events = {};
@@ -1189,7 +1172,7 @@ Emitter.prototype.emit = function(type, subtype, e) {
 module.exports = Emitter;
 
 });
-__loader.define("lib/image.js", 1192, function(exports, module, require) {
+__loader.define("lib/image.js", 1175, function(exports, module, require) {
 var PNG = require('vendor/png');
 
 var PNGEncoder = require('lib/png-encoder');
@@ -1491,7 +1474,7 @@ image.load = function(img, bitdepth, callback) {
 module.exports = image;
 
 });
-__loader.define("lib/myutil.js", 1494, function(exports, module, require) {
+__loader.define("lib/myutil.js", 1477, function(exports, module, require) {
 var util2 = require('util2');
 
 var myutil = {};
@@ -1580,7 +1563,7 @@ myutil.toCConstantName = function(x) {
 module.exports = myutil;
 
 });
-__loader.define("lib/png-encoder.js", 1583, function(exports, module, require) {
+__loader.define("lib/png-encoder.js", 1566, function(exports, module, require) {
 /**
  * PNG Encoder from data-demo
  * https://code.google.com/p/data-demo/
@@ -1962,7 +1945,7 @@ if (typeof module !== 'undefined') {
 }
 
 });
-__loader.define("lib/safe.js", 1965, function(exports, module, require) {
+__loader.define("lib/safe.js", 1948, function(exports, module, require) {
 /* safe.js - Building a safer world for Pebble.JS Developers
  *
  * This library provides wrapper around all the asynchronous handlers that developers
@@ -2179,7 +2162,7 @@ if (ajax) {
 module.exports = safe;
 
 });
-__loader.define("lib/struct.js", 2182, function(exports, module, require) {
+__loader.define("lib/struct.js", 2165, function(exports, module, require) {
 /**
  * struct.js - chainable ArrayBuffer DataView wrapper
  *
@@ -2441,7 +2424,7 @@ module.exports = struct;
 
 
 });
-__loader.define("lib/util2.js", 2444, function(exports, module, require) {
+__loader.define("lib/util2.js", 2427, function(exports, module, require) {
 /*
  * util2.js by Meiguro - MIT License
  */
@@ -2551,7 +2534,7 @@ return util2;
 })();
 
 });
-__loader.define("lib/vector2.js", 2554, function(exports, module, require) {
+__loader.define("lib/vector2.js", 2537, function(exports, module, require) {
 /**
  * Vector2 from three.js
  * https://github.com/mrdoob/three.js
@@ -2728,7 +2711,7 @@ if (typeof module !== 'undefined') {
 }
 
 });
-__loader.define("main.js", 2731, function(exports, module, require) {
+__loader.define("main.js", 2714, function(exports, module, require) {
 /*
  * This is the main PebbleJS file. You do not need to modify this file unless
  * you want to change the way PebbleJS starts, the script it runs or the libraries
@@ -2773,13 +2756,13 @@ Pebble.addEventListener('ready', function(e) {
 });
 
 });
-__loader.define("platform/index.js", 2776, function(exports, module, require) {
+__loader.define("platform/index.js", 2759, function(exports, module, require) {
 var Platform = require('./platform');
 
 module.exports = Platform;
 
 });
-__loader.define("platform/platform.js", 2782, function(exports, module, require) {
+__loader.define("platform/platform.js", 2765, function(exports, module, require) {
 var Platform = module.exports;
 
 Platform.version = function() {
@@ -2791,7 +2774,7 @@ Platform.version = function() {
 };
 
 });
-__loader.define("settings/index.js", 2794, function(exports, module, require) {
+__loader.define("settings/index.js", 2777, function(exports, module, require) {
 var Settings = require('./settings');
 
 Settings.init();
@@ -2799,7 +2782,7 @@ Settings.init();
 module.exports = Settings;
 
 });
-__loader.define("settings/settings.js", 2802, function(exports, module, require) {
+__loader.define("settings/settings.js", 2785, function(exports, module, require) {
 var util2 = require('lib/util2');
 var myutil = require('lib/myutil');
 var safe = require('lib/safe');
@@ -3016,7 +2999,7 @@ Settings.onCloseConfig = function(e) {
 };
 
 });
-__loader.define("simply/simply.js", 3019, function(exports, module, require) {
+__loader.define("simply/simply.js", 3002, function(exports, module, require) {
 /**
  * Simply.js
  *
@@ -3057,7 +3040,7 @@ simply.vibe = function(type) {
 module.exports = simply;
 
 });
-__loader.define("smartpackage/package-pebble.js", 3060, function(exports, module, require) {
+__loader.define("smartpackage/package-pebble.js", 3043, function(exports, module, require) {
 var myutil = require('myutil');
 var package = require('smartpackage/package');
 var simply = require('simply/simply');
@@ -3161,7 +3144,7 @@ packageImpl.loadPackage = function(pkg, loader) {
 
 
 });
-__loader.define("smartpackage/package.js", 3164, function(exports, module, require) {
+__loader.define("smartpackage/package.js", 3147, function(exports, module, require) {
 var ajax = require('ajax');
 var util2 = require('util2');
 var myutil = require('myutil');
@@ -3338,7 +3321,7 @@ package.require = function(path) {
 };
 
 });
-__loader.define("timeline/index.js", 3341, function(exports, module, require) {
+__loader.define("timeline/index.js", 3324, function(exports, module, require) {
 var Timeline = require('./timeline');
 
 Timeline.init();
@@ -3346,7 +3329,7 @@ Timeline.init();
 module.exports = Timeline;
 
 });
-__loader.define("timeline/timeline.js", 3349, function(exports, module, require) {
+__loader.define("timeline/timeline.js", 3332, function(exports, module, require) {
 var Timeline = module.exports;
 
 Timeline.init = function() {
@@ -3386,7 +3369,7 @@ Timeline.emitAction = function(args) {
 };
 
 });
-__loader.define("ui/accel.js", 3389, function(exports, module, require) {
+__loader.define("ui/accel.js", 3372, function(exports, module, require) {
 var Emitter = require('emitter');
 
 var Accel = new Emitter();
@@ -3546,7 +3529,7 @@ Accel.emitAccelData = function(accels, callback) {
 Accel.init();
 
 });
-__loader.define("ui/card.js", 3549, function(exports, module, require) {
+__loader.define("ui/card.js", 3532, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -3624,7 +3607,7 @@ Card.prototype._clear = function(flags) {
 module.exports = Card;
 
 });
-__loader.define("ui/circle.js", 3627, function(exports, module, require) {
+__loader.define("ui/circle.js", 3610, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var StageElement = require('ui/element');
@@ -3644,7 +3627,7 @@ util2.inherit(Circle, StageElement);
 module.exports = Circle;
 
 });
-__loader.define("ui/element.js", 3647, function(exports, module, require) {
+__loader.define("ui/element.js", 3630, function(exports, module, require) {
 var util2 = require('util2');
 var Vector2 = require('vector2');
 var myutil = require('myutil');
@@ -3763,7 +3746,7 @@ StageElement.emitAnimateDone = function(id) {
 module.exports = StageElement;
 
 });
-__loader.define("ui/image.js", 3766, function(exports, module, require) {
+__loader.define("ui/image.js", 3749, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Propable = require('ui/propable');
@@ -3791,7 +3774,7 @@ Propable.makeAccessors(imageProps, ImageElement.prototype);
 module.exports = ImageElement;
 
 });
-__loader.define("ui/imageservice.js", 3794, function(exports, module, require) {
+__loader.define("ui/imageservice.js", 3777, function(exports, module, require) {
 var imagelib = require('lib/image');
 var myutil = require('myutil');
 var Platform = require('platform');
@@ -3924,7 +3907,7 @@ ImageService.markAllUnloaded = function() {
 ImageService.init();
 
 });
-__loader.define("ui/index.js", 3927, function(exports, module, require) {
+__loader.define("ui/index.js", 3910, function(exports, module, require) {
 var UI = {};
 
 UI.Vector2 = require('vector2');
@@ -3944,7 +3927,7 @@ UI.Light = require('ui/light');
 module.exports = UI;
 
 });
-__loader.define("ui/inverter.js", 3947, function(exports, module, require) {
+__loader.define("ui/inverter.js", 3930, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var StageElement = require('ui/element');
@@ -3959,7 +3942,7 @@ util2.inherit(Inverter, StageElement);
 module.exports = Inverter;
 
 });
-__loader.define("ui/light.js", 3962, function(exports, module, require) {
+__loader.define("ui/light.js", 3945, function(exports, module, require) {
 var simply = require('ui/simply');
 
 var Light = module.exports;
@@ -3977,7 +3960,7 @@ Light.trigger = function() {
 };
 
 });
-__loader.define("ui/menu.js", 3980, function(exports, module, require) {
+__loader.define("ui/menu.js", 3963, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -4359,7 +4342,7 @@ Menu.emitSelect = function(type, sectionIndex, itemIndex) {
 module.exports = Menu;
 
 });
-__loader.define("ui/propable.js", 4362, function(exports, module, require) {
+__loader.define("ui/propable.js", 4345, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 
@@ -4419,7 +4402,7 @@ Propable.prototype.prop = function(field, value, clear) {
 module.exports = Propable;
 
 });
-__loader.define("ui/radial.js", 4422, function(exports, module, require) {
+__loader.define("ui/radial.js", 4405, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var StageElement = require('ui/element');
@@ -4442,7 +4425,7 @@ util2.inherit(Radial, StageElement);
 module.exports = Radial;
 
 });
-__loader.define("ui/rect.js", 4445, function(exports, module, require) {
+__loader.define("ui/rect.js", 4428, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var StageElement = require('ui/element');
@@ -4462,7 +4445,7 @@ util2.inherit(Rect, StageElement);
 module.exports = Rect;
 
 });
-__loader.define("ui/resource.js", 4465, function(exports, module, require) {
+__loader.define("ui/resource.js", 4448, function(exports, module, require) {
 var myutil = require('lib/myutil');
 var appinfo = require('appinfo');
 
@@ -4493,7 +4476,7 @@ Resource.getId = function(opt) {
 module.exports = Resource;
 
 });
-__loader.define("ui/simply-pebble.js", 4496, function(exports, module, require) {
+__loader.define("ui/simply-pebble.js", 4479, function(exports, module, require) {
 var struct = require('struct');
 var util2 = require('util2');
 var myutil = require('myutil');
@@ -6111,7 +6094,7 @@ module.exports = SimplyPebble;
 
 
 });
-__loader.define("ui/simply.js", 6114, function(exports, module, require) {
+__loader.define("ui/simply.js", 6097, function(exports, module, require) {
 /**
  * This file provides an easy way to switch the actual implementation used by all the
  * ui objects.
@@ -6127,7 +6110,7 @@ simply.impl = undefined;
 module.exports = simply;
 
 });
-__loader.define("ui/stage.js", 6130, function(exports, module, require) {
+__loader.define("ui/stage.js", 6113, function(exports, module, require) {
 var util2 = require('util2');
 var Emitter = require('emitter');
 var WindowStack = require('ui/windowstack');
@@ -6210,7 +6193,7 @@ Stage.prototype.remove = function(element, broadcast) {
 module.exports = Stage;
 
 });
-__loader.define("ui/tests.js", 6213, function(exports, module, require) {
+__loader.define("ui/tests.js", 6196, function(exports, module, require) {
 
 var tests = {};
 
@@ -6252,7 +6235,7 @@ for (var test in tests) {
 }
 
 });
-__loader.define("ui/text.js", 6255, function(exports, module, require) {
+__loader.define("ui/text.js", 6238, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Propable = require('ui/propable');
@@ -6286,7 +6269,7 @@ Propable.makeAccessors(textProps, Text.prototype);
 module.exports = Text;
 
 });
-__loader.define("ui/timetext.js", 6289, function(exports, module, require) {
+__loader.define("ui/timetext.js", 6272, function(exports, module, require) {
 var util2 = require('util2');
 var Text = require('ui/text');
 
@@ -6348,7 +6331,7 @@ TimeText.prototype.text = function(text) {
 module.exports = TimeText;
 
 });
-__loader.define("ui/vibe.js", 6351, function(exports, module, require) {
+__loader.define("ui/vibe.js", 6334, function(exports, module, require) {
 var simply = require('ui/simply');
 
 var Vibe = module.exports;
@@ -6358,7 +6341,7 @@ Vibe.vibrate = function(type) {
 };
 
 });
-__loader.define("ui/voice.js", 6361, function(exports, module, require) {
+__loader.define("ui/voice.js", 6344, function(exports, module, require) {
 var simply = require('ui/simply');
 
 var Voice = {};
@@ -6385,7 +6368,7 @@ Voice.dictate = function(type, confirm, callback) {
 module.exports = Voice;
 
 });
-__loader.define("ui/window.js", 6388, function(exports, module, require) {
+__loader.define("ui/window.js", 6371, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -6687,7 +6670,7 @@ Window.emitClick = function(type, button) {
 module.exports = Window;
 
 });
-__loader.define("ui/windowstack.js", 6690, function(exports, module, require) {
+__loader.define("ui/windowstack.js", 6673, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -6813,7 +6796,7 @@ WindowStack.prototype._toString = function() {
 module.exports = new WindowStack();
 
 });
-__loader.define("vendor/moment.js", 6816, function(exports, module, require) {
+__loader.define("vendor/moment.js", 6799, function(exports, module, require) {
 //! moment.js
 //! version : 2.9.0
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
@@ -9859,7 +9842,7 @@ __loader.define("vendor/moment.js", 6816, function(exports, module, require) {
 }).call(this);
 
 });
-__loader.define("vendor/png.js", 9862, function(exports, module, require) {
+__loader.define("vendor/png.js", 9845, function(exports, module, require) {
 // Generated by CoffeeScript 1.4.0
 
 /*
@@ -10326,7 +10309,7 @@ if (typeof require !== 'undefined') {
 }).call(this);
 
 });
-__loader.define("vendor/zlib.js", 10329, function(exports, module, require) {
+__loader.define("vendor/zlib.js", 10312, function(exports, module, require) {
 /**
  * zlib.js Deflate + Inflate
  *
@@ -10378,13 +10361,13 @@ if (typeof module !== 'undefined') {
 }
 
 });
-__loader.define("wakeup/index.js", 10381, function(exports, module, require) {
+__loader.define("wakeup/index.js", 10364, function(exports, module, require) {
 var Wakeup = require('./wakeup');
 
 module.exports = Wakeup;
 
 });
-__loader.define("wakeup/wakeup.js", 10387, function(exports, module, require) {
+__loader.define("wakeup/wakeup.js", 10370, function(exports, module, require) {
 var util2 = require('util2');
 var Emitter = require('emitter');
 var Settings = require('settings');
@@ -10586,7 +10569,7 @@ Wakeup.prototype._emitWakeupLaunch = function(e) {
 module.exports = new Wakeup();
 
 });
-__loader.define("appinfo.json", 10589, function(exports, module, require) {
+__loader.define("appinfo.json", 10572, function(exports, module, require) {
 module.exports = {
   "appKeys": {},
   "capabilities": [
