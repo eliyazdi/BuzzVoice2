@@ -211,395 +211,385 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
     case VibeLong: vibes_long_pulse(); break;
     case VibeDouble: vibes_double_pulse(); break;
     case VibeA: {
-      static const uint32_t const segments[] = { 200, 350, 600,350 };
+      static const uint32_t const segments[] = { 200, 400, 600 ,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeB: {
-      static const uint32_t const segments[] = { 600, 350, 200,350,200,350,200,350 };
+      static const uint32_t const segments[] = { 600, 400, 200,400,200,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeC: {
-      static const uint32_t const segments[] = { 600, 350, 200,350,600,350,200,350 };
+      static const uint32_t const segments[] = { 600, 400, 200,400,600,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeD: {
-      static const uint32_t const segments[] = { 600, 350, 200,350,200,350 };
+      static const uint32_t const segments[] = { 600, 400, 200,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeE: {
-      static const uint32_t const segments[] = { 200 ,350};
+      static const uint32_t const segments[] = { 200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeF: {
-      static const uint32_t const segments[] = { 200,350,200,350,600,350,200 ,350};
+      static const uint32_t const segments[] = { 200,400,200,400,600,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeG: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350 };
+      static const uint32_t const segments[] = { 600,400,600,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeH: {
-      static const uint32_t const segments[] = { 200,350,200,350,200,350,200,350 };
+      static const uint32_t const segments[] = { 200,400,200,400,200,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeI: {
-      static const uint32_t const segments[] = { 200,350,200,350};
+      static const uint32_t const segments[] = { 200,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeJ: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350,600,350 };
+      static const uint32_t const segments[] = { 200,400,600,400,600,400,600,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeK: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350 };
+      static const uint32_t const segments[] = { 600,400,200,400,600,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeL: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { 200,400,600,400,200,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeM: {
-      static const uint32_t const segments[] = { 600,350,600,350,350 };
+      static const uint32_t const segments[] = { 600,400,600,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeN: {
-      static const uint32_t const segments[] = { 600,350,200,350 };
+      static const uint32_t const segments[] = { 600,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }     
     case VibeO: {
-      static const uint32_t const segments[] = { 600,350,600,350,600,350 };
+      static const uint32_t const segments[] = { 600,400,600,400,600,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeP: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350,200,350 };
+      static const uint32_t const segments[] = { 200,400,600,400,600,400,200,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeQ: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,600,350 };
+      static const uint32_t const segments[] = { 600,400,600,400,200,400,600,400 };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeR: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350};
+      static const uint32_t const segments[] = { 200,400,600,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }   
     case VibeS: {
-      static const uint32_t const segments[] = { 200,350,200,350,200,35};
+      static const uint32_t const segments[] = { 200,400,200,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeT: {
-      static const uint32_t const segments[] = { 600,350};
+      static const uint32_t const segments[] = { 600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeU: {
-      static const uint32_t const segments[] = { 200,350,200,350,600,350};
+      static const uint32_t const segments[] = { 200,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }    
     case VibeV: {
-      static const uint32_t const segments[] = { 200,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { 200,400,200,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeW: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350};
+      static const uint32_t const segments[] = { 200,400,600,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeX: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { 600,400,200,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeY: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350,600,350};
+      static const uint32_t const segments[] = { 600,400,200,400,600,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }   
     case VibeZ: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { 600,400,600,400,200,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }   
     case VibePeriod: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350,600,350,200,350,600,350};
+      static const uint32_t const segments[] = { 200,400,600,400,200,400,600,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeComma: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,200,350,600,350,600,350};
+      static const uint32_t const segments[] = { 600,400,600,400,200,400,200,400,600,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeColon: {
-      static const uint32_t const segments[] = { 600,350,600,350,600,350,200,350,200,350,200,350};
+      static const uint32_t const segments[] = { 600,400,600,400,600,400,200,400,200,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeQuestion: {
-      static const uint32_t const segments[] = { 200,350,200,350,600,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { 200,400,200,400,600,400,600,400,200,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeApostrophe: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { 600,400,600,400,200,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeHyphen: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { 600,400,200,400,200,400,200,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeSlash: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,600,350,200,350};
+      static const uint32_t const segments[] = { 600,400,200,400,200,400,600,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }
     case VibeOpenParentheses: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350,600,350,200,350,600,350};
+      static const uint32_t const segments[] = { 600,400,200,400,600,400,600,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeCloseParentheses: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350,600,350,200,350,600,350};
+      static const uint32_t const segments[] = { 600,400,200,400,600,400,600,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     } 
     case VibeQuotes: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350,200,350,600,350,200,350};
+      static const uint32_t const segments[] = { 200,400,600,400,200,400,200,400,600,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeAt: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350,200,350,600,350,200,350};
+      static const uint32_t const segments[] = { 200,400,600,400,600,400,200,400,600,400,200,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
     }  
     case VibeEquals: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { 600,400,200,400,200,400,200,400,200,400,600,400};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
       };
       vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
+      psleep(4000);
       break;
-    }  
-    case VibeSpace: {
-      static const uint32_t const segments[] = { 0,1000};
-      VibePattern pat = {
-        .durations = segments,
-        .num_segments = ARRAY_LENGTH(segments),
-      };
-      vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
-      break;
-    }                                                                                                                           
+    }                                                                                                                       
   }
 }
 

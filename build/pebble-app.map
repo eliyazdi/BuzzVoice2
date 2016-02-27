@@ -961,7 +961,7 @@ LOAD /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none
  .note.gnu.build-id
                 0x0000000000000084       0x24 linker stubs
 
-.text           0x00000000000000a8     0x4bc7
+.text           0x00000000000000a8     0x4ba7
  *(.text)
  .text          0x00000000000000a8       0x14 /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
  .text          0x00000000000000bc       0x38 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
@@ -1094,980 +1094,1014 @@ LOAD /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none
  .text.send_msg
                 0x0000000000001750       0x30 src/simply/simply_msg.c.17.o
  .text.handle_vibe_packet.isra.1
-                0x0000000000001780      0x2cc src/simply/simply_msg.c.17.o
+                0x0000000000001780      0x2b8 src/simply/simply_msg.c.17.o
  .text.handle_packet
-                0x0000000000001a4c      0x17a src/simply/simply_msg.c.17.o
- *fill*         0x0000000000001bc6        0x2 
+                0x0000000000001a38      0x17a src/simply/simply_msg.c.17.o
+ *fill*         0x0000000000001bb2        0x2 
  .text.received_callback
-                0x0000000000001bc8       0x38 src/simply/simply_msg.c.17.o
+                0x0000000000001bb4       0x38 src/simply/simply_msg.c.17.o
  .text.send_msg_retry
-                0x0000000000001c00       0xb8 src/simply/simply_msg.c.17.o
+                0x0000000000001bec       0xb8 src/simply/simply_msg.c.17.o
  .text.simply_msg_has_communicated
-                0x0000000000001cb8        0xc src/simply/simply_msg.c.17.o
-                0x0000000000001cb8                simply_msg_has_communicated
+                0x0000000000001ca4        0xc src/simply/simply_msg.c.17.o
+                0x0000000000001ca4                simply_msg_has_communicated
  .text.simply_msg_show_disconnected
-                0x0000000000001cc4       0x58 src/simply/simply_msg.c.17.o
-                0x0000000000001cc4                simply_msg_show_disconnected
+                0x0000000000001cb0       0x58 src/simply/simply_msg.c.17.o
+                0x0000000000001cb0                simply_msg_show_disconnected
  .text.failed_callback
-                0x0000000000001d1c       0x18 src/simply/simply_msg.c.17.o
+                0x0000000000001d08       0x18 src/simply/simply_msg.c.17.o
  .text.simply_msg_create
-                0x0000000000001d34       0x6c src/simply/simply_msg.c.17.o
-                0x0000000000001d34                simply_msg_create
+                0x0000000000001d20       0x6c src/simply/simply_msg.c.17.o
+                0x0000000000001d20                simply_msg_create
  .text.simply_msg_destroy
-                0x0000000000001da0       0x1c src/simply/simply_msg.c.17.o
-                0x0000000000001da0                simply_msg_destroy
+                0x0000000000001d8c       0x1c src/simply/simply_msg.c.17.o
+                0x0000000000001d8c                simply_msg_destroy
  .text.simply_msg_send
-                0x0000000000001dbc        0x4 src/simply/simply_msg.c.17.o
-                0x0000000000001dbc                simply_msg_send
+                0x0000000000001da8        0x4 src/simply/simply_msg.c.17.o
+                0x0000000000001da8                simply_msg_send
  .text.simply_msg_send_packet
-                0x0000000000001dc0       0x84 src/simply/simply_msg.c.17.o
-                0x0000000000001dc0                simply_msg_send_packet
+                0x0000000000001dac       0x84 src/simply/simply_msg.c.17.o
+                0x0000000000001dac                simply_msg_send_packet
  .text.list1_remove
-                0x0000000000001e44       0x32 src/simply/simply_res.c.17.o
+                0x0000000000001e30       0x32 src/simply/simply_res.c.17.o
  .text.destroy_image
-                0x0000000000001e76       0x22 src/simply/simply_res.c.17.o
- .text.malloc0  0x0000000000001e98       0x18 src/simply/simply_res.c.17.o
+                0x0000000000001e62       0x22 src/simply/simply_res.c.17.o
+ .text.malloc0  0x0000000000001e84       0x18 src/simply/simply_res.c.17.o
  .text.window_stack_schedule_top_window_render
-                0x0000000000001eb0       0x12 src/simply/simply_res.c.17.o
+                0x0000000000001e9c       0x12 src/simply/simply_res.c.17.o
  .text.setup_image
-                0x0000000000001ec2       0x64 src/simply/simply_res.c.17.o
+                0x0000000000001eae       0x64 src/simply/simply_res.c.17.o
  .text.create_bitmap_with_png_data
-                0x0000000000001f26        0xc src/simply/simply_res.c.17.o
+                0x0000000000001f12        0xc src/simply/simply_res.c.17.o
  .text.create_bitmap_with_id
-                0x0000000000001f32       0x12 src/simply/simply_res.c.17.o
+                0x0000000000001f1e       0x12 src/simply/simply_res.c.17.o
  .text.simply_res_evict_image
-                0x0000000000001f44       0x1a src/simply/simply_res.c.17.o
-                0x0000000000001f44                simply_res_evict_image
+                0x0000000000001f30       0x1a src/simply/simply_res.c.17.o
+                0x0000000000001f30                simply_res_evict_image
  .text.create_image
-                0x0000000000001f5e       0x48 src/simply/simply_res.c.17.o
- *fill*         0x0000000000001fa6        0x2 
+                0x0000000000001f4a       0x48 src/simply/simply_res.c.17.o
+ *fill*         0x0000000000001f92        0x2 
  .text.simply_res_add_bundled_image
-                0x0000000000001fa8       0x28 src/simply/simply_res.c.17.o
-                0x0000000000001fa8                simply_res_add_bundled_image
+                0x0000000000001f94       0x28 src/simply/simply_res.c.17.o
+                0x0000000000001f94                simply_res_add_bundled_image
  .text.simply_res_add_image
-                0x0000000000001fd0       0x64 src/simply/simply_res.c.17.o
-                0x0000000000001fd0                simply_res_add_image
+                0x0000000000001fbc       0x64 src/simply/simply_res.c.17.o
+                0x0000000000001fbc                simply_res_add_image
  .text.simply_res_auto_image
-                0x0000000000002034       0x42 src/simply/simply_res.c.17.o
-                0x0000000000002034                simply_res_auto_image
+                0x0000000000002020       0x42 src/simply/simply_res.c.17.o
+                0x0000000000002020                simply_res_auto_image
  .text.simply_res_add_custom_font
-                0x0000000000002076       0x40 src/simply/simply_res.c.17.o
-                0x0000000000002076                simply_res_add_custom_font
+                0x0000000000002062       0x40 src/simply/simply_res.c.17.o
+                0x0000000000002062                simply_res_add_custom_font
  .text.simply_res_auto_font
-                0x00000000000020b6       0x2a src/simply/simply_res.c.17.o
-                0x00000000000020b6                simply_res_auto_font
+                0x00000000000020a2       0x2a src/simply/simply_res.c.17.o
+                0x00000000000020a2                simply_res_auto_font
  .text.simply_res_clear
-                0x00000000000020e0       0x34 src/simply/simply_res.c.17.o
-                0x00000000000020e0                simply_res_clear
+                0x00000000000020cc       0x34 src/simply/simply_res.c.17.o
+                0x00000000000020cc                simply_res_clear
  .text.simply_res_create
-                0x0000000000002114       0x2a src/simply/simply_res.c.17.o
-                0x0000000000002114                simply_res_create
+                0x0000000000002100       0x2a src/simply/simply_res.c.17.o
+                0x0000000000002100                simply_res_create
  .text.simply_res_destroy
-                0x000000000000213e       0x12 src/simply/simply_res.c.17.o
-                0x000000000000213e                simply_res_destroy
+                0x000000000000212a       0x12 src/simply/simply_res.c.17.o
+                0x000000000000212a                simply_res_destroy
  .text.window_load
-                0x0000000000002150       0x12 src/simply/simply_splash.c.17.o
+                0x000000000000213c       0x12 src/simply/simply_splash.c.17.o
  .text.layer_update_callback
-                0x0000000000002162       0x24 src/simply/simply_splash.c.17.o
-                0x0000000000002162                layer_update_callback
- *fill*         0x0000000000002186        0x2 
+                0x000000000000214e       0x24 src/simply/simply_splash.c.17.o
+                0x000000000000214e                layer_update_callback
+ *fill*         0x0000000000002172        0x2 
  .text.simply_splash_create
-                0x0000000000002188       0x78 src/simply/simply_splash.c.17.o
-                0x0000000000002188                simply_splash_create
+                0x0000000000002174       0x78 src/simply/simply_splash.c.17.o
+                0x0000000000002174                simply_splash_create
  .text.simply_splash_destroy
-                0x0000000000002200       0x20 src/simply/simply_splash.c.17.o
-                0x0000000000002200                simply_splash_destroy
+                0x00000000000021ec       0x20 src/simply/simply_splash.c.17.o
+                0x00000000000021ec                simply_splash_destroy
  .text.window_disappear
-                0x0000000000002220       0x1a src/simply/simply_splash.c.17.o
+                0x000000000000220c       0x1a src/simply/simply_splash.c.17.o
  .text.list1_remove
-                0x000000000000223a       0x32 src/simply/simply_stage.c.17.o
+                0x0000000000002226       0x32 src/simply/simply_stage.c.17.o
  .text.element_frame_getter
-                0x000000000000226c       0x10 src/simply/simply_stage.c.17.o
+                0x0000000000002258       0x10 src/simply/simply_stage.c.17.o
  .text.window_unload
-                0x000000000000227c       0x1e src/simply/simply_stage.c.17.o
+                0x0000000000002268       0x1e src/simply/simply_stage.c.17.o
  .text.destroy_animation
-                0x000000000000229a       0x24 src/simply/simply_stage.c.17.o
- *fill*         0x00000000000022be        0x2 
+                0x0000000000002286       0x24 src/simply/simply_stage.c.17.o
+ *fill*         0x00000000000022aa        0x2 
  .text.simply_stage_update_ticker
-                0x00000000000022c0       0x2c src/simply/simply_stage.c.17.o
+                0x00000000000022ac       0x2c src/simply/simply_stage.c.17.o
  .text.simply_stage_clear
-                0x00000000000022ec       0x52 src/simply/simply_stage.c.17.o
+                0x00000000000022d8       0x52 src/simply/simply_stage.c.17.o
  .text.window_disappear
-                0x000000000000233e       0x22 src/simply/simply_stage.c.17.o
+                0x000000000000232a       0x22 src/simply/simply_stage.c.17.o
  .text.handle_tick
-                0x0000000000002360       0x12 src/simply/simply_stage.c.17.o
+                0x000000000000234c       0x12 src/simply/simply_stage.c.17.o
  .text.simply_stage_update
-                0x0000000000002372        0xa src/simply/simply_stage.c.17.o
+                0x000000000000235e        0xa src/simply/simply_stage.c.17.o
  .text.window_appear
-                0x000000000000237c       0x16 src/simply/simply_stage.c.17.o
- *fill*         0x0000000000002392        0x2 
+                0x0000000000002368       0x16 src/simply/simply_stage.c.17.o
+ *fill*         0x000000000000237e        0x2 
  .text.window_load
-                0x0000000000002394       0x58 src/simply/simply_stage.c.17.o
- .text.malloc0  0x00000000000023ec       0x18 src/simply/simply_stage.c.17.o
+                0x0000000000002380       0x58 src/simply/simply_stage.c.17.o
+ .text.malloc0  0x00000000000023d8       0x18 src/simply/simply_stage.c.17.o
  .text.simply_stage_remove_element
-                0x0000000000002404       0x24 src/simply/simply_stage.c.17.o
+                0x00000000000023f0       0x24 src/simply/simply_stage.c.17.o
  .text.rect_element_draw_background.isra.1.part.2
-                0x0000000000002428       0x20 src/simply/simply_stage.c.17.o
+                0x0000000000002414       0x20 src/simply/simply_stage.c.17.o
  .text.rect_element_draw_border.isra.3.part.4
-                0x0000000000002448       0x20 src/simply/simply_stage.c.17.o
+                0x0000000000002434       0x20 src/simply/simply_stage.c.17.o
  .text.simply_stage_set_element_frame.isra.10
-                0x0000000000002468       0x32 src/simply/simply_stage.c.17.o
+                0x0000000000002454       0x32 src/simply/simply_stage.c.17.o
  .text.element_frame_setter
-                0x000000000000249a       0x1e src/simply/simply_stage.c.17.o
+                0x0000000000002486       0x1e src/simply/simply_stage.c.17.o
  .text.prv_draw_line_polar.constprop.13
-                0x00000000000024b8       0x46 src/simply/simply_stage.c.17.o
+                0x00000000000024a4       0x46 src/simply/simply_stage.c.17.o
  .text.rect_element_draw.isra.5
-                0x00000000000024fe       0x24 src/simply/simply_stage.c.17.o
- *fill*         0x0000000000002522        0x2 
+                0x00000000000024ea       0x24 src/simply/simply_stage.c.17.o
+ *fill*         0x000000000000250e        0x2 
  .text.layer_update_callback
-                0x0000000000002524      0x358 src/simply/simply_stage.c.17.o
+                0x0000000000002510      0x358 src/simply/simply_stage.c.17.o
  .text.simply_stage_auto_element
-                0x000000000000287c       0x8c src/simply/simply_stage.c.17.o
+                0x0000000000002868       0x8c src/simply/simply_stage.c.17.o
  .text.animation_stopped
-                0x0000000000002908       0x34 src/simply/simply_stage.c.17.o
+                0x00000000000028f4       0x34 src/simply/simply_stage.c.17.o
  .text.simply_stage_handle_packet
-                0x000000000000293c      0x2e0 src/simply/simply_stage.c.17.o
-                0x000000000000293c                simply_stage_handle_packet
+                0x0000000000002928      0x2e0 src/simply/simply_stage.c.17.o
+                0x0000000000002928                simply_stage_handle_packet
  .text.simply_stage_create
-                0x0000000000002c1c       0x38 src/simply/simply_stage.c.17.o
-                0x0000000000002c1c                simply_stage_create
+                0x0000000000002c08       0x38 src/simply/simply_stage.c.17.o
+                0x0000000000002c08                simply_stage_create
  .text.simply_stage_destroy
-                0x0000000000002c54       0x16 src/simply/simply_stage.c.17.o
-                0x0000000000002c54                simply_stage_destroy
+                0x0000000000002c40       0x16 src/simply/simply_stage.c.17.o
+                0x0000000000002c40                simply_stage_destroy
  .text.window_unload
-                0x0000000000002c6a       0x1e src/simply/simply_ui.c.17.o
+                0x0000000000002c56       0x1e src/simply/simply_ui.c.17.o
  .text.window_disappear
-                0x0000000000002c88       0x1c src/simply/simply_ui.c.17.o
+                0x0000000000002c74       0x1c src/simply/simply_ui.c.17.o
  .text.window_appear
-                0x0000000000002ca4        0xe src/simply/simply_ui.c.17.o
+                0x0000000000002c90        0xe src/simply/simply_ui.c.17.o
  .text.graphics_draw_bitmap_centered
-                0x0000000000002cb2       0x62 src/simply/simply_ui.c.17.o
+                0x0000000000002c9e       0x62 src/simply/simply_ui.c.17.o
  .text.mark_dirty
-                0x0000000000002d14        0xa src/simply/simply_ui.c.17.o
+                0x0000000000002d00        0xa src/simply/simply_ui.c.17.o
  .text.show_welcome_text
-                0x0000000000002d1e       0x18 src/simply/simply_ui.c.17.o
+                0x0000000000002d0a       0x18 src/simply/simply_ui.c.17.o
  .text.graphics_text_attributes_enable_paging_on_layer.constprop.3
-                0x0000000000002d36       0x58 src/simply/simply_ui.c.17.o
- *fill*         0x0000000000002d8e        0x2 
+                0x0000000000002d22       0x58 src/simply/simply_ui.c.17.o
+ *fill*         0x0000000000002d7a        0x2 
  .text.layer_update_callback
-                0x0000000000002d90      0x510 src/simply/simply_ui.c.17.o
+                0x0000000000002d7c      0x510 src/simply/simply_ui.c.17.o
  .text.simply_ui_set_style
-                0x00000000000032a0       0x3c src/simply/simply_ui.c.17.o
-                0x00000000000032a0                simply_ui_set_style
+                0x000000000000328c       0x3c src/simply/simply_ui.c.17.o
+                0x000000000000328c                simply_ui_set_style
  .text.window_load
-                0x00000000000032dc       0x60 src/simply/simply_ui.c.17.o
+                0x00000000000032c8       0x60 src/simply/simply_ui.c.17.o
  .text.simply_ui_set_text
-                0x000000000000333c       0x5c src/simply/simply_ui.c.17.o
-                0x000000000000333c                simply_ui_set_text
+                0x0000000000003328       0x5c src/simply/simply_ui.c.17.o
+                0x0000000000003328                simply_ui_set_text
  .text.simply_ui_set_text_color
-                0x0000000000003398        0xc src/simply/simply_ui.c.17.o
-                0x0000000000003398                simply_ui_set_text_color
+                0x0000000000003384        0xc src/simply/simply_ui.c.17.o
+                0x0000000000003384                simply_ui_set_text_color
  .text.simply_ui_clear
-                0x00000000000033a4       0x4a src/simply/simply_ui.c.17.o
-                0x00000000000033a4                simply_ui_clear
+                0x0000000000003390       0x4a src/simply/simply_ui.c.17.o
+                0x0000000000003390                simply_ui_clear
  .text.simply_ui_handle_packet
-                0x00000000000033ee       0x70 src/simply/simply_ui.c.17.o
-                0x00000000000033ee                simply_ui_handle_packet
- *fill*         0x000000000000345e        0x2 
+                0x00000000000033da       0x70 src/simply/simply_ui.c.17.o
+                0x00000000000033da                simply_ui_handle_packet
+ *fill*         0x000000000000344a        0x2 
  .text.simply_ui_create
-                0x0000000000003460       0x48 src/simply/simply_ui.c.17.o
-                0x0000000000003460                simply_ui_create
+                0x000000000000344c       0x48 src/simply/simply_ui.c.17.o
+                0x000000000000344c                simply_ui_create
  .text.simply_ui_destroy
-                0x00000000000034a8       0x2a src/simply/simply_ui.c.17.o
-                0x00000000000034a8                simply_ui_destroy
- *fill*         0x00000000000034d2        0x2 
+                0x0000000000003494       0x2a src/simply/simply_ui.c.17.o
+                0x0000000000003494                simply_ui_destroy
+ *fill*         0x00000000000034be        0x2 
  .text.send_voice_data
-                0x00000000000034d4       0x5c src/simply/simply_voice.c.17.o
+                0x00000000000034c0       0x5c src/simply/simply_voice.c.17.o
  .text.dictation_session_callback
-                0x0000000000003530       0x18 src/simply/simply_voice.c.17.o
+                0x000000000000351c       0x18 src/simply/simply_voice.c.17.o
  .text.timer_callback_start_dictation
-                0x0000000000003548       0x10 src/simply/simply_voice.c.17.o
+                0x0000000000003534       0x10 src/simply/simply_voice.c.17.o
  .text.simply_voice_handle_packet
-                0x0000000000003558       0x6c src/simply/simply_voice.c.17.o
-                0x0000000000003558                simply_voice_handle_packet
+                0x0000000000003544       0x6c src/simply/simply_voice.c.17.o
+                0x0000000000003544                simply_voice_handle_packet
  .text.simply_voice_create
-                0x00000000000035c4       0x3c src/simply/simply_voice.c.17.o
-                0x00000000000035c4                simply_voice_create
+                0x00000000000035b0       0x3c src/simply/simply_voice.c.17.o
+                0x00000000000035b0                simply_voice_create
  .text.simply_voice_destroy
-                0x0000000000003600       0x18 src/simply/simply_voice.c.17.o
-                0x0000000000003600                simply_voice_destroy
+                0x00000000000035ec       0x18 src/simply/simply_voice.c.17.o
+                0x00000000000035ec                simply_voice_destroy
  .text.simply_voice_dictation_in_progress
-                0x0000000000003618       0x10 src/simply/simply_voice.c.17.o
-                0x0000000000003618                simply_voice_dictation_in_progress
+                0x0000000000003604       0x10 src/simply/simply_voice.c.17.o
+                0x0000000000003604                simply_voice_dictation_in_progress
  .text.wakeup_handler
-                0x0000000000003628       0x1c src/simply/simply_wakeup.c.17.o
+                0x0000000000003614       0x1c src/simply/simply_wakeup.c.17.o
  .text.wakeup_set_timer_callback
-                0x0000000000003644       0x20 src/simply/simply_wakeup.c.17.o
+                0x0000000000003630       0x20 src/simply/simply_wakeup.c.17.o
  .text.simply_wakeup_handle_packet
-                0x0000000000003664       0xac src/simply/simply_wakeup.c.17.o
-                0x0000000000003664                simply_wakeup_handle_packet
+                0x0000000000003650       0xac src/simply/simply_wakeup.c.17.o
+                0x0000000000003650                simply_wakeup_handle_packet
  .text.simply_wakeup_init
-                0x0000000000003710        0xc src/simply/simply_wakeup.c.17.o
-                0x0000000000003710                simply_wakeup_init
+                0x00000000000036fc        0xc src/simply/simply_wakeup.c.17.o
+                0x00000000000036fc                simply_wakeup_init
  .text.prv_update_layer_placement
-                0x000000000000371c       0xb6 src/simply/simply_window.c.17.o
+                0x0000000000003708       0xb6 src/simply/simply_window.c.17.o
  .text.simply_window_single_click_handler
-                0x00000000000037d2       0x5c src/simply/simply_window.c.17.o
-                0x00000000000037d2                simply_window_single_click_handler
- *fill*         0x000000000000382e        0x2 
+                0x00000000000037be       0x5c src/simply/simply_window.c.17.o
+                0x00000000000037be                simply_window_single_click_handler
+ *fill*         0x000000000000381a        0x2 
  .text.scroll_layer_set_click_config_provider_onto_window.constprop.5
-                0x0000000000003830       0x30 src/simply/simply_window.c.17.o
+                0x000000000000381c       0x30 src/simply/simply_window.c.17.o
  .text.click_config_provider
-                0x0000000000003860       0x7c src/simply/simply_window.c.17.o
+                0x000000000000384c       0x7c src/simply/simply_window.c.17.o
  .text.long_click_handler
-                0x00000000000038dc       0x32 src/simply/simply_window.c.17.o
+                0x00000000000038c8       0x32 src/simply/simply_window.c.17.o
  .text.simply_window_set_scrollable
-                0x000000000000390e       0x60 src/simply/simply_window.c.17.o
-                0x000000000000390e                simply_window_set_scrollable
+                0x00000000000038fa       0x60 src/simply/simply_window.c.17.o
+                0x00000000000038fa                simply_window_set_scrollable
  .text.simply_window_set_status_bar
-                0x000000000000396e       0x44 src/simply/simply_window.c.17.o
-                0x000000000000396e                simply_window_set_status_bar
+                0x000000000000395a       0x44 src/simply/simply_window.c.17.o
+                0x000000000000395a                simply_window_set_status_bar
  .text.simply_window_set_background_color
-                0x00000000000039b2       0x26 src/simply/simply_window.c.17.o
-                0x00000000000039b2                simply_window_set_background_color
+                0x000000000000399e       0x26 src/simply/simply_window.c.17.o
+                0x000000000000399e                simply_window_set_background_color
  .text.simply_window_set_status_bar_colors
-                0x00000000000039d8        0xa src/simply/simply_window.c.17.o
-                0x00000000000039d8                simply_window_set_status_bar_colors
+                0x00000000000039c4        0xa src/simply/simply_window.c.17.o
+                0x00000000000039c4                simply_window_set_status_bar_colors
  .text.simply_window_set_status_bar_separator_mode
-                0x00000000000039e2        0xa src/simply/simply_window.c.17.o
-                0x00000000000039e2                simply_window_set_status_bar_separator_mode
+                0x00000000000039ce        0xa src/simply/simply_window.c.17.o
+                0x00000000000039ce                simply_window_set_status_bar_separator_mode
  .text.simply_window_set_action_bar
-                0x00000000000039ec       0x50 src/simply/simply_window.c.17.o
-                0x00000000000039ec                simply_window_set_action_bar
+                0x00000000000039d8       0x50 src/simply/simply_window.c.17.o
+                0x00000000000039d8                simply_window_set_action_bar
  .text.simply_window_set_action_bar_icon
-                0x0000000000003a3c       0x58 src/simply/simply_window.c.17.o
-                0x0000000000003a3c                simply_window_set_action_bar_icon
+                0x0000000000003a28       0x58 src/simply/simply_window.c.17.o
+                0x0000000000003a28                simply_window_set_action_bar_icon
  .text.simply_window_set_action_bar_background_color
-                0x0000000000003a94       0x38 src/simply/simply_window.c.17.o
-                0x0000000000003a94                simply_window_set_action_bar_background_color
+                0x0000000000003a80       0x38 src/simply/simply_window.c.17.o
+                0x0000000000003a80                simply_window_set_action_bar_background_color
  .text.simply_window_action_bar_clear
-                0x0000000000003acc       0x2c src/simply/simply_window.c.17.o
-                0x0000000000003acc                simply_window_action_bar_clear
+                0x0000000000003ab8       0x2c src/simply/simply_window.c.17.o
+                0x0000000000003ab8                simply_window_action_bar_clear
  .text.simply_window_preload
-                0x0000000000003af8       0x30 src/simply/simply_window.c.17.o
-                0x0000000000003af8                simply_window_preload
+                0x0000000000003ae4       0x30 src/simply/simply_window.c.17.o
+                0x0000000000003ae4                simply_window_preload
  .text.simply_window_load
-                0x0000000000003b28       0x9c src/simply/simply_window.c.17.o
-                0x0000000000003b28                simply_window_load
+                0x0000000000003b14       0x9c src/simply/simply_window.c.17.o
+                0x0000000000003b14                simply_window_load
  .text.simply_window_appear
-                0x0000000000003bc4       0x1c src/simply/simply_window.c.17.o
-                0x0000000000003bc4                simply_window_appear
+                0x0000000000003bb0       0x1c src/simply/simply_window.c.17.o
+                0x0000000000003bb0                simply_window_appear
  .text.simply_window_disappear
-                0x0000000000003be0       0x28 src/simply/simply_window.c.17.o
-                0x0000000000003be0                simply_window_disappear
+                0x0000000000003bcc       0x28 src/simply/simply_window.c.17.o
+                0x0000000000003bcc                simply_window_disappear
  .text.simply_window_unload
-                0x0000000000003c08       0x32 src/simply/simply_window.c.17.o
-                0x0000000000003c08                simply_window_unload
+                0x0000000000003bf4       0x32 src/simply/simply_window.c.17.o
+                0x0000000000003bf4                simply_window_unload
  .text.simply_window_handle_packet
-                0x0000000000003c3a       0xac src/simply/simply_window.c.17.o
-                0x0000000000003c3a                simply_window_handle_packet
+                0x0000000000003c26       0xac src/simply/simply_window.c.17.o
+                0x0000000000003c26                simply_window_handle_packet
  .text.simply_window_init
-                0x0000000000003ce6       0x26 src/simply/simply_window.c.17.o
-                0x0000000000003ce6                simply_window_init
+                0x0000000000003cd2       0x26 src/simply/simply_window.c.17.o
+                0x0000000000003cd2                simply_window_init
  .text.simply_window_deinit
-                0x0000000000003d0c       0x12 src/simply/simply_window.c.17.o
-                0x0000000000003d0c                simply_window_deinit
+                0x0000000000003cf8       0x12 src/simply/simply_window.c.17.o
+                0x0000000000003cf8                simply_window_deinit
  .text.show_window_sdk_3.isra.4
-                0x0000000000003d1e       0x52 src/simply/simply_window_stack.c.17.o
+                0x0000000000003d0a       0x52 src/simply/simply_window_stack.c.17.o
  .text.simply_window_stack_set_broadcast
-                0x0000000000003d70       0x10 src/simply/simply_window_stack.c.17.o
-                0x0000000000003d70                simply_window_stack_set_broadcast
+                0x0000000000003d5c       0x10 src/simply/simply_window_stack.c.17.o
+                0x0000000000003d5c                simply_window_stack_set_broadcast
  .text.simply_window_stack_get_top_window
-                0x0000000000003d80       0x20 src/simply/simply_window_stack.c.17.o
-                0x0000000000003d80                simply_window_stack_get_top_window
+                0x0000000000003d6c       0x20 src/simply/simply_window_stack.c.17.o
+                0x0000000000003d6c                simply_window_stack_get_top_window
  .text.simply_window_stack_show
-                0x0000000000003da0        0x4 src/simply/simply_window_stack.c.17.o
-                0x0000000000003da0                simply_window_stack_show
+                0x0000000000003d8c        0x4 src/simply/simply_window_stack.c.17.o
+                0x0000000000003d8c                simply_window_stack_show
  .text.simply_window_stack_pop
-                0x0000000000003da4       0x26 src/simply/simply_window_stack.c.17.o
-                0x0000000000003da4                simply_window_stack_pop
- *fill*         0x0000000000003dca        0x2 
+                0x0000000000003d90       0x26 src/simply/simply_window_stack.c.17.o
+                0x0000000000003d90                simply_window_stack_pop
+ *fill*         0x0000000000003db6        0x2 
  .text.simply_window_stack_send_show
-                0x0000000000003dcc       0x30 src/simply/simply_window_stack.c.17.o
-                0x0000000000003dcc                simply_window_stack_send_show
+                0x0000000000003db8       0x30 src/simply/simply_window_stack.c.17.o
+                0x0000000000003db8                simply_window_stack_send_show
  .text.simply_window_stack_send_hide
-                0x0000000000003dfc       0x30 src/simply/simply_window_stack.c.17.o
-                0x0000000000003dfc                simply_window_stack_send_hide
+                0x0000000000003de8       0x30 src/simply/simply_window_stack.c.17.o
+                0x0000000000003de8                simply_window_stack_send_hide
  .text.simply_window_stack_back
-                0x0000000000003e2c       0x1a src/simply/simply_window_stack.c.17.o
-                0x0000000000003e2c                simply_window_stack_back
+                0x0000000000003e18       0x1a src/simply/simply_window_stack.c.17.o
+                0x0000000000003e18                simply_window_stack_back
  .text.simply_window_stack_handle_packet
-                0x0000000000003e46       0x4a src/simply/simply_window_stack.c.17.o
-                0x0000000000003e46                simply_window_stack_handle_packet
+                0x0000000000003e32       0x4a src/simply/simply_window_stack.c.17.o
+                0x0000000000003e32                simply_window_stack_handle_packet
  .text.simply_window_stack_create
-                0x0000000000003e90       0x12 src/simply/simply_window_stack.c.17.o
-                0x0000000000003e90                simply_window_stack_create
+                0x0000000000003e7c       0x12 src/simply/simply_window_stack.c.17.o
+                0x0000000000003e7c                simply_window_stack_create
  .text.simply_window_stack_destroy
-                0x0000000000003ea2        0x8 src/simply/simply_window_stack.c.17.o
-                0x0000000000003ea2                simply_window_stack_destroy
- *fill*         0x0000000000003eaa        0x2 
+                0x0000000000003e8e        0x8 src/simply/simply_window_stack.c.17.o
+                0x0000000000003e8e                simply_window_stack_destroy
+ *fill*         0x0000000000003e96        0x2 
  .text.accel_data_service_unsubscribe
-                0x0000000000003eac        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003eac                accel_data_service_unsubscribe
+                0x0000000000003e98        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003e98                accel_data_service_unsubscribe
  .text.accel_service_peek
-                0x0000000000003eb8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003eb8                accel_service_peek
+                0x0000000000003ea4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003ea4                accel_service_peek
  .text.accel_service_set_sampling_rate
-                0x0000000000003ec4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003ec4                accel_service_set_sampling_rate
+                0x0000000000003eb0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003eb0                accel_service_set_sampling_rate
  .text.accel_tap_service_subscribe
-                0x0000000000003ed0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003ed0                accel_tap_service_subscribe
+                0x0000000000003ebc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003ebc                accel_tap_service_subscribe
  .text.accel_tap_service_unsubscribe
-                0x0000000000003edc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003edc                accel_tap_service_unsubscribe
+                0x0000000000003ec8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003ec8                accel_tap_service_unsubscribe
  .text.app_event_loop
-                0x0000000000003ee8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003ee8                app_event_loop
+                0x0000000000003ed4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003ed4                app_event_loop
  .text.app_message_deregister_callbacks
-                0x0000000000003ef4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003ef4                app_message_deregister_callbacks
+                0x0000000000003ee0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003ee0                app_message_deregister_callbacks
  .text.app_message_open
-                0x0000000000003f00        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f00                app_message_open
+                0x0000000000003eec        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003eec                app_message_open
  .text.app_timer_cancel
-                0x0000000000003f0c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f0c                app_timer_cancel
+                0x0000000000003ef8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003ef8                app_timer_cancel
  .text.app_timer_register
-                0x0000000000003f18        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f18                app_timer_register
+                0x0000000000003f04        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f04                app_timer_register
  .text.click_recognizer_get_button_id
-                0x0000000000003f24        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f24                click_recognizer_get_button_id
+                0x0000000000003f10        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f10                click_recognizer_get_button_id
  .text.cos_lookup
-                0x0000000000003f30        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f30                cos_lookup
+                0x0000000000003f1c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f1c                cos_lookup
  .text.dict_find
-                0x0000000000003f3c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f3c                dict_find
+                0x0000000000003f28        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f28                dict_find
  .text.dict_write_data
-                0x0000000000003f48        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f48                dict_write_data
+                0x0000000000003f34        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f34                dict_write_data
  .text.fonts_get_system_font
-                0x0000000000003f54        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f54                fonts_get_system_font
+                0x0000000000003f40        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f40                fonts_get_system_font
  .text.fonts_load_custom_font
-                0x0000000000003f60        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f60                fonts_load_custom_font
+                0x0000000000003f4c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f4c                fonts_load_custom_font
  .text.fonts_unload_custom_font
-                0x0000000000003f6c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f6c                fonts_unload_custom_font
- .text.free     0x0000000000003f78        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f78                free
+                0x0000000000003f58        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f58                fonts_unload_custom_font
+ .text.free     0x0000000000003f64        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f64                free
  .text.gbitmap_create_with_resource
-                0x0000000000003f84        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f84                gbitmap_create_with_resource
+                0x0000000000003f70        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f70                gbitmap_create_with_resource
  .text.gbitmap_destroy
-                0x0000000000003f90        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f90                gbitmap_destroy
+                0x0000000000003f7c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f7c                gbitmap_destroy
  .text.graphics_context_set_compositing_mode
-                0x0000000000003f9c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003f9c                graphics_context_set_compositing_mode
+                0x0000000000003f88        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f88                graphics_context_set_compositing_mode
  .text.graphics_draw_bitmap_in_rect
-                0x0000000000003fa8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003fa8                graphics_draw_bitmap_in_rect
+                0x0000000000003f94        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003f94                graphics_draw_bitmap_in_rect
  .text.graphics_draw_circle
-                0x0000000000003fb4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003fb4                graphics_draw_circle
+                0x0000000000003fa0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003fa0                graphics_draw_circle
  .text.graphics_draw_line
-                0x0000000000003fc0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003fc0                graphics_draw_line
+                0x0000000000003fac        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003fac                graphics_draw_line
  .text.graphics_draw_round_rect
-                0x0000000000003fcc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003fcc                graphics_draw_round_rect
+                0x0000000000003fb8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003fb8                graphics_draw_round_rect
  .text.graphics_fill_circle
-                0x0000000000003fd8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003fd8                graphics_fill_circle
+                0x0000000000003fc4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003fc4                graphics_fill_circle
  .text.graphics_fill_rect
-                0x0000000000003fe4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003fe4                graphics_fill_rect
+                0x0000000000003fd0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003fd0                graphics_fill_rect
  .text.grect_center_point
-                0x0000000000003ff0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003ff0                grect_center_point
+                0x0000000000003fdc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003fdc                grect_center_point
  .text.grect_standardize
-                0x0000000000003ffc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000003ffc                grect_standardize
+                0x0000000000003fe8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003fe8                grect_standardize
  .text.inverter_layer_create
-                0x0000000000004008        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004008                inverter_layer_create
+                0x0000000000003ff4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000003ff4                inverter_layer_create
  .text.inverter_layer_destroy
-                0x0000000000004014        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004014                inverter_layer_destroy
+                0x0000000000004000        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004000                inverter_layer_destroy
  .text.inverter_layer_get_layer
-                0x0000000000004020        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004020                inverter_layer_get_layer
+                0x000000000000400c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000400c                inverter_layer_get_layer
  .text.layer_add_child
-                0x000000000000402c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000402c                layer_add_child
+                0x0000000000004018        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004018                layer_add_child
  .text.layer_create_with_data
-                0x0000000000004038        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004038                layer_create_with_data
+                0x0000000000004024        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004024                layer_create_with_data
  .text.layer_destroy
-                0x0000000000004044        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004044                layer_destroy
+                0x0000000000004030        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004030                layer_destroy
  .text.layer_get_bounds
-                0x0000000000004050        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004050                layer_get_bounds
+                0x000000000000403c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000403c                layer_get_bounds
  .text.layer_get_data
-                0x000000000000405c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000405c                layer_get_data
+                0x0000000000004048        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004048                layer_get_data
  .text.layer_get_frame
-                0x0000000000004068        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004068                layer_get_frame
+                0x0000000000004054        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004054                layer_get_frame
  .text.layer_get_window
-                0x0000000000004074        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004074                layer_get_window
+                0x0000000000004060        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004060                layer_get_window
  .text.layer_mark_dirty
-                0x0000000000004080        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004080                layer_mark_dirty
+                0x000000000000406c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000406c                layer_mark_dirty
  .text.layer_remove_from_parent
-                0x000000000000408c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000408c                layer_remove_from_parent
+                0x0000000000004078        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004078                layer_remove_from_parent
  .text.layer_set_frame
-                0x0000000000004098        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004098                layer_set_frame
+                0x0000000000004084        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004084                layer_set_frame
  .text.layer_set_update_proc
-                0x00000000000040a4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040a4                layer_set_update_proc
+                0x0000000000004090        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004090                layer_set_update_proc
  .text.light_enable
-                0x00000000000040b0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040b0                light_enable
+                0x000000000000409c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000409c                light_enable
  .text.light_enable_interaction
-                0x00000000000040bc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040bc                light_enable_interaction
- .text.malloc   0x00000000000040c8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040c8                malloc
- .text.memcpy   0x00000000000040d4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040d4                memcpy
- .text.memset   0x00000000000040e0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040e0                memset
+                0x00000000000040a8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040a8                light_enable_interaction
+ .text.malloc   0x00000000000040b4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040b4                malloc
+ .text.memcpy   0x00000000000040c0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040c0                memcpy
+ .text.memset   0x00000000000040cc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040cc                memset
  .text.menu_cell_basic_draw
-                0x00000000000040ec        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040ec                menu_cell_basic_draw
+                0x00000000000040d8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040d8                menu_cell_basic_draw
  .text.menu_layer_destroy
-                0x00000000000040f8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000040f8                menu_layer_destroy
+                0x00000000000040e4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040e4                menu_layer_destroy
  .text.menu_layer_get_layer
-                0x0000000000004104        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004104                menu_layer_get_layer
+                0x00000000000040f0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040f0                menu_layer_get_layer
  .text.menu_layer_get_scroll_layer
-                0x0000000000004110        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004110                menu_layer_get_scroll_layer
+                0x00000000000040fc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000040fc                menu_layer_get_scroll_layer
  .text.menu_layer_get_selected_index
-                0x000000000000411c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000411c                menu_layer_get_selected_index
+                0x0000000000004108        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004108                menu_layer_get_selected_index
  .text.menu_layer_reload_data
-                0x0000000000004128        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004128                menu_layer_reload_data
+                0x0000000000004114        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004114                menu_layer_reload_data
  .text.menu_layer_set_click_config_onto_window
-                0x0000000000004134        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004134                menu_layer_set_click_config_onto_window
+                0x0000000000004120        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004120                menu_layer_set_click_config_onto_window
  .text.menu_layer_set_selected_index
-                0x0000000000004140        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004140                menu_layer_set_selected_index
- .text.psleep   0x000000000000414c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000414c                psleep
+                0x000000000000412c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000412c                menu_layer_set_selected_index
+ .text.psleep   0x0000000000004138        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004138                psleep
  .text.resource_get_handle
-                0x0000000000004158        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004158                resource_get_handle
+                0x0000000000004144        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004144                resource_get_handle
  .text.scroll_layer_add_child
-                0x0000000000004164        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004164                scroll_layer_add_child
+                0x0000000000004150        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004150                scroll_layer_add_child
  .text.scroll_layer_create
-                0x0000000000004170        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004170                scroll_layer_create
+                0x000000000000415c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000415c                scroll_layer_create
  .text.scroll_layer_destroy
-                0x000000000000417c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000417c                scroll_layer_destroy
+                0x0000000000004168        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004168                scroll_layer_destroy
  .text.scroll_layer_get_content_offset
-                0x0000000000004188        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004188                scroll_layer_get_content_offset
+                0x0000000000004174        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004174                scroll_layer_get_content_offset
  .text.scroll_layer_get_layer
-                0x0000000000004194        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004194                scroll_layer_get_layer
+                0x0000000000004180        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004180                scroll_layer_get_layer
  .text.scroll_layer_set_click_config_onto_window
-                0x00000000000041a0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041a0                scroll_layer_set_click_config_onto_window
+                0x000000000000418c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000418c                scroll_layer_set_click_config_onto_window
  .text.scroll_layer_set_content_offset
-                0x00000000000041ac        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041ac                scroll_layer_set_content_offset
+                0x0000000000004198        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004198                scroll_layer_set_content_offset
  .text.scroll_layer_set_content_size
-                0x00000000000041b8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041b8                scroll_layer_set_content_size
+                0x00000000000041a4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041a4                scroll_layer_set_content_size
  .text.scroll_layer_set_context
-                0x00000000000041c4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041c4                scroll_layer_set_context
+                0x00000000000041b0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041b0                scroll_layer_set_context
  .text.scroll_layer_set_shadow_hidden
-                0x00000000000041d0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041d0                scroll_layer_set_shadow_hidden
+                0x00000000000041bc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041bc                scroll_layer_set_shadow_hidden
  .text.sin_lookup
-                0x00000000000041dc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041dc                sin_lookup
+                0x00000000000041c8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041c8                sin_lookup
  .text.strftime
-                0x00000000000041e8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041e8                strftime
- .text.strlen   0x00000000000041f4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000041f4                strlen
- .text.strncpy  0x0000000000004200        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004200                strncpy
+                0x00000000000041d4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041d4                strftime
+ .text.strlen   0x00000000000041e0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041e0                strlen
+ .text.strncpy  0x00000000000041ec        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041ec                strncpy
  .text.tick_timer_service_subscribe
-                0x000000000000420c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000420c                tick_timer_service_subscribe
+                0x00000000000041f8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000041f8                tick_timer_service_subscribe
  .text.tick_timer_service_unsubscribe
-                0x0000000000004218        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004218                tick_timer_service_unsubscribe
+                0x0000000000004204        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004204                tick_timer_service_unsubscribe
  .text.vibes_double_pulse
-                0x0000000000004224        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004224                vibes_double_pulse
+                0x0000000000004210        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004210                vibes_double_pulse
  .text.vibes_enqueue_custom_pattern
-                0x0000000000004230        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004230                vibes_enqueue_custom_pattern
+                0x000000000000421c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000421c                vibes_enqueue_custom_pattern
  .text.vibes_long_pulse
-                0x000000000000423c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000423c                vibes_long_pulse
+                0x0000000000004228        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004228                vibes_long_pulse
  .text.vibes_short_pulse
-                0x0000000000004248        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004248                vibes_short_pulse
+                0x0000000000004234        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004234                vibes_short_pulse
  .text.window_create
-                0x0000000000004254        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004254                window_create
+                0x0000000000004240        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004240                window_create
  .text.window_destroy
-                0x0000000000004260        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004260                window_destroy
+                0x000000000000424c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000424c                window_destroy
  .text.window_get_click_config_provider
-                0x000000000000426c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000426c                window_get_click_config_provider
+                0x0000000000004258        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004258                window_get_click_config_provider
  .text.window_get_root_layer
-                0x0000000000004278        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004278                window_get_root_layer
+                0x0000000000004264        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004264                window_get_root_layer
  .text.window_set_click_config_provider_with_context
-                0x0000000000004284        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004284                window_set_click_config_provider_with_context
+                0x0000000000004270        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004270                window_set_click_config_provider_with_context
  .text.window_set_window_handlers
-                0x0000000000004290        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004290                window_set_window_handlers
+                0x000000000000427c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000427c                window_set_window_handlers
  .text.window_stack_get_top_window
-                0x000000000000429c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000429c                window_stack_get_top_window
+                0x0000000000004288        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004288                window_stack_get_top_window
  .text.window_stack_pop
-                0x00000000000042a8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042a8                window_stack_pop
+                0x0000000000004294        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004294                window_stack_pop
  .text.window_stack_pop_all
-                0x00000000000042b4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042b4                window_stack_pop_all
+                0x00000000000042a0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042a0                window_stack_pop_all
  .text.window_stack_push
-                0x00000000000042c0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042c0                window_stack_push
+                0x00000000000042ac        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042ac                window_stack_push
  .text.window_stack_remove
-                0x00000000000042cc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042cc                window_stack_remove
+                0x00000000000042b8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042b8                window_stack_remove
  .text.window_get_user_data
-                0x00000000000042d8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042d8                window_get_user_data
+                0x00000000000042c4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042c4                window_get_user_data
  .text.window_set_user_data
-                0x00000000000042e4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042e4                window_set_user_data
+                0x00000000000042d0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042d0                window_set_user_data
  .text.app_message_outbox_begin
-                0x00000000000042f0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042f0                app_message_outbox_begin
+                0x00000000000042dc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042dc                app_message_outbox_begin
  .text.app_message_outbox_send
-                0x00000000000042fc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000042fc                app_message_outbox_send
+                0x00000000000042e8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042e8                app_message_outbox_send
  .text.app_message_register_inbox_dropped
-                0x0000000000004308        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004308                app_message_register_inbox_dropped
+                0x00000000000042f4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000042f4                app_message_register_inbox_dropped
  .text.app_message_register_inbox_received
-                0x0000000000004314        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004314                app_message_register_inbox_received
+                0x0000000000004300        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004300                app_message_register_inbox_received
  .text.app_message_register_outbox_failed
-                0x0000000000004320        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004320                app_message_register_outbox_failed
+                0x000000000000430c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000430c                app_message_register_outbox_failed
  .text.app_message_register_outbox_sent
-                0x000000000000432c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000432c                app_message_register_outbox_sent
+                0x0000000000004318        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004318                app_message_register_outbox_sent
  .text.app_message_set_context
-                0x0000000000004338        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004338                app_message_set_context
+                0x0000000000004324        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004324                app_message_set_context
  .text.window_long_click_subscribe
-                0x0000000000004344        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004344                window_long_click_subscribe
+                0x0000000000004330        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004330                window_long_click_subscribe
  .text.window_set_click_context
-                0x0000000000004350        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004350                window_set_click_context
+                0x000000000000433c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000433c                window_set_click_context
  .text.window_single_click_subscribe
-                0x000000000000435c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000435c                window_single_click_subscribe
+                0x0000000000004348        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004348                window_single_click_subscribe
  .text.graphics_draw_text
-                0x0000000000004368        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004368                graphics_draw_text
+                0x0000000000004354        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004354                graphics_draw_text
  .text.accel_data_service_subscribe
-                0x0000000000004374        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004374                accel_data_service_subscribe
+                0x0000000000004360        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004360                accel_data_service_subscribe
  .text.launch_reason
-                0x0000000000004380        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004380                launch_reason
+                0x000000000000436c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000436c                launch_reason
  .text.wakeup_cancel
-                0x000000000000438c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000438c                wakeup_cancel
+                0x0000000000004378        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004378                wakeup_cancel
  .text.wakeup_cancel_all
-                0x0000000000004398        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004398                wakeup_cancel_all
+                0x0000000000004384        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004384                wakeup_cancel_all
  .text.wakeup_get_launch_event
-                0x00000000000043a4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043a4                wakeup_get_launch_event
+                0x0000000000004390        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004390                wakeup_get_launch_event
  .text.wakeup_schedule
-                0x00000000000043b0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043b0                wakeup_schedule
+                0x000000000000439c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000439c                wakeup_schedule
  .text.wakeup_service_subscribe
-                0x00000000000043bc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043bc                wakeup_service_subscribe
+                0x00000000000043a8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043a8                wakeup_service_subscribe
  .text.clock_is_timezone_set
-                0x00000000000043c8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043c8                clock_is_timezone_set
+                0x00000000000043b4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043b4                clock_is_timezone_set
  .text.graphics_context_set_fill_color
-                0x00000000000043d4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043d4                graphics_context_set_fill_color
+                0x00000000000043c0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043c0                graphics_context_set_fill_color
  .text.graphics_context_set_stroke_color
-                0x00000000000043e0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043e0                graphics_context_set_stroke_color
+                0x00000000000043cc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043cc                graphics_context_set_stroke_color
  .text.graphics_context_set_text_color
-                0x00000000000043ec        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043ec                graphics_context_set_text_color
+                0x00000000000043d8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043d8                graphics_context_set_text_color
  .text.window_set_background_color
-                0x00000000000043f8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000043f8                window_set_background_color
+                0x00000000000043e4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043e4                window_set_background_color
  .text.localtime
-                0x0000000000004404        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004404                localtime
+                0x00000000000043f0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043f0                localtime
  .text.animation_destroy
-                0x0000000000004410        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004410                animation_destroy
+                0x00000000000043fc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000043fc                animation_destroy
  .text.animation_schedule
-                0x000000000000441c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000441c                animation_schedule
+                0x0000000000004408        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004408                animation_schedule
  .text.animation_set_curve
-                0x0000000000004428        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004428                animation_set_curve
+                0x0000000000004414        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004414                animation_set_curve
  .text.animation_set_duration
-                0x0000000000004434        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004434                animation_set_duration
+                0x0000000000004420        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004420                animation_set_duration
  .text.animation_set_handlers
-                0x0000000000004440        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004440                animation_set_handlers
+                0x000000000000442c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000442c                animation_set_handlers
  .text.animation_unschedule
-                0x000000000000444c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000444c                animation_unschedule
+                0x0000000000004438        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004438                animation_unschedule
  .text.property_animation_create
-                0x0000000000004458        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004458                property_animation_create
+                0x0000000000004444        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004444                property_animation_create
  .text.property_animation_destroy
-                0x0000000000004464        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004464                property_animation_destroy
+                0x0000000000004450        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004450                property_animation_destroy
  .text.property_animation_from
-                0x0000000000004470        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004470                property_animation_from
+                0x000000000000445c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000445c                property_animation_from
  .text.property_animation_to
-                0x000000000000447c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000447c                property_animation_to
+                0x0000000000004468        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004468                property_animation_to
  .text.property_animation_update_grect
-                0x0000000000004488        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004488                property_animation_update_grect
+                0x0000000000004474        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004474                property_animation_update_grect
  .text.gbitmap_get_bounds
-                0x0000000000004494        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004494                gbitmap_get_bounds
+                0x0000000000004480        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004480                gbitmap_get_bounds
  .text.gbitmap_get_format
-                0x00000000000044a0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044a0                gbitmap_get_format
+                0x000000000000448c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000448c                gbitmap_get_format
  .text.gbitmap_get_palette
-                0x00000000000044ac        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044ac                gbitmap_get_palette
+                0x0000000000004498        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004498                gbitmap_get_palette
  .text.gbitmap_set_palette
-                0x00000000000044b8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044b8                gbitmap_set_palette
+                0x00000000000044a4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044a4                gbitmap_set_palette
  .text.gbitmap_create_from_png_data
-                0x00000000000044c4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044c4                gbitmap_create_from_png_data
+                0x00000000000044b0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044b0                gbitmap_create_from_png_data
  .text.launch_get_args
-                0x00000000000044d0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044d0                launch_get_args
+                0x00000000000044bc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044bc                launch_get_args
  .text.menu_layer_create
-                0x00000000000044dc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044dc                menu_layer_create
+                0x00000000000044c8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044c8                menu_layer_create
  .text.graphics_context_set_antialiased
-                0x00000000000044e8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044e8                graphics_context_set_antialiased
+                0x00000000000044d4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044d4                graphics_context_set_antialiased
  .text.graphics_context_set_stroke_width
-                0x00000000000044f4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000044f4                graphics_context_set_stroke_width
+                0x00000000000044e0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044e0                graphics_context_set_stroke_width
  .text.action_bar_layer_add_to_window
-                0x0000000000004500        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004500                action_bar_layer_add_to_window
+                0x00000000000044ec        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044ec                action_bar_layer_add_to_window
  .text.action_bar_layer_clear_icon
-                0x000000000000450c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000450c                action_bar_layer_clear_icon
+                0x00000000000044f8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000044f8                action_bar_layer_clear_icon
  .text.action_bar_layer_create
-                0x0000000000004518        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004518                action_bar_layer_create
+                0x0000000000004504        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004504                action_bar_layer_create
  .text.action_bar_layer_destroy
-                0x0000000000004524        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004524                action_bar_layer_destroy
+                0x0000000000004510        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004510                action_bar_layer_destroy
  .text.action_bar_layer_get_layer
-                0x0000000000004530        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004530                action_bar_layer_get_layer
+                0x000000000000451c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000451c                action_bar_layer_get_layer
  .text.action_bar_layer_remove_from_window
-                0x000000000000453c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000453c                action_bar_layer_remove_from_window
+                0x0000000000004528        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004528                action_bar_layer_remove_from_window
  .text.action_bar_layer_set_background_color
-                0x0000000000004548        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004548                action_bar_layer_set_background_color
+                0x0000000000004534        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004534                action_bar_layer_set_background_color
  .text.action_bar_layer_set_click_config_provider
-                0x0000000000004554        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004554                action_bar_layer_set_click_config_provider
+                0x0000000000004540        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004540                action_bar_layer_set_click_config_provider
  .text.action_bar_layer_set_context
-                0x0000000000004560        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004560                action_bar_layer_set_context
+                0x000000000000454c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000454c                action_bar_layer_set_context
  .text.action_bar_layer_set_icon
-                0x000000000000456c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000456c                action_bar_layer_set_icon
+                0x0000000000004558        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004558                action_bar_layer_set_icon
  .text.menu_cell_layer_is_highlighted
-                0x0000000000004578        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004578                menu_cell_layer_is_highlighted
- .text.time     0x0000000000004584        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004584                time
+                0x0000000000004564        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004564                menu_cell_layer_is_highlighted
+ .text.time     0x0000000000004570        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004570                time
  .text.menu_layer_set_highlight_colors
-                0x0000000000004590        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004590                menu_layer_set_highlight_colors
+                0x000000000000457c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000457c                menu_layer_set_highlight_colors
  .text.menu_layer_set_normal_colors
-                0x000000000000459c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000459c                menu_layer_set_normal_colors
+                0x0000000000004588        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004588                menu_layer_set_normal_colors
  .text.menu_layer_set_callbacks
-                0x00000000000045a8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045a8                menu_layer_set_callbacks
+                0x0000000000004594        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004594                menu_layer_set_callbacks
  .text.status_bar_layer_create
-                0x00000000000045b4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045b4                status_bar_layer_create
+                0x00000000000045a0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045a0                status_bar_layer_create
  .text.status_bar_layer_destroy
-                0x00000000000045c0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045c0                status_bar_layer_destroy
+                0x00000000000045ac        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045ac                status_bar_layer_destroy
  .text.status_bar_layer_get_layer
-                0x00000000000045cc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045cc                status_bar_layer_get_layer
+                0x00000000000045b8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045b8                status_bar_layer_get_layer
  .text.status_bar_layer_set_colors
-                0x00000000000045d8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045d8                status_bar_layer_set_colors
+                0x00000000000045c4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045c4                status_bar_layer_set_colors
  .text.status_bar_layer_set_separator_mode
-                0x00000000000045e4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045e4                status_bar_layer_set_separator_mode
- .text.time_ms  0x00000000000045f0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045f0                time_ms
+                0x00000000000045d0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045d0                status_bar_layer_set_separator_mode
+ .text.time_ms  0x00000000000045dc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045dc                time_ms
  .text.gcolor_legible_over
-                0x00000000000045fc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000045fc                gcolor_legible_over
+                0x00000000000045e8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045e8                gcolor_legible_over
  .text.dictation_session_create
-                0x0000000000004608        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004608                dictation_session_create
+                0x00000000000045f4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000045f4                dictation_session_create
  .text.dictation_session_enable_confirmation
-                0x0000000000004614        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004614                dictation_session_enable_confirmation
+                0x0000000000004600        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004600                dictation_session_enable_confirmation
  .text.dictation_session_start
-                0x0000000000004620        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004620                dictation_session_start
+                0x000000000000460c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000460c                dictation_session_start
  .text.dictation_session_stop
-                0x000000000000462c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000462c                dictation_session_stop
+                0x0000000000004618        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004618                dictation_session_stop
  .text.grect_inset
-                0x0000000000004638        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004638                grect_inset
+                0x0000000000004624        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004624                grect_inset
  .text.gpoint_from_polar
-                0x0000000000004644        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004644                gpoint_from_polar
+                0x0000000000004630        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004630                gpoint_from_polar
  .text.graphics_draw_arc
-                0x0000000000004650        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004650                graphics_draw_arc
+                0x000000000000463c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000463c                graphics_draw_arc
  .text.graphics_fill_radial
-                0x000000000000465c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000465c                graphics_fill_radial
+                0x0000000000004648        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004648                graphics_fill_radial
  .text.graphics_text_attributes_create
-                0x0000000000004668        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004668                graphics_text_attributes_create
+                0x0000000000004654        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004654                graphics_text_attributes_create
  .text.graphics_text_attributes_destroy
-                0x0000000000004674        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004674                graphics_text_attributes_destroy
+                0x0000000000004660        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004660                graphics_text_attributes_destroy
  .text.graphics_text_attributes_enable_paging
-                0x0000000000004680        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004680                graphics_text_attributes_enable_paging
+                0x000000000000466c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000466c                graphics_text_attributes_enable_paging
  .text.graphics_text_attributes_enable_screen_text_flow
-                0x000000000000468c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x000000000000468c                graphics_text_attributes_enable_screen_text_flow
+                0x0000000000004678        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004678                graphics_text_attributes_enable_screen_text_flow
  .text.graphics_text_layout_get_content_size_with_attributes
-                0x0000000000004698        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x0000000000004698                graphics_text_layout_get_content_size_with_attributes
+                0x0000000000004684        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004684                graphics_text_layout_get_content_size_with_attributes
  .text.layer_convert_point_to_screen
-                0x00000000000046a4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000046a4                layer_convert_point_to_screen
+                0x0000000000004690        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x0000000000004690                layer_convert_point_to_screen
  .text.layer_convert_rect_to_screen
-                0x00000000000046b0        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000046b0                layer_convert_rect_to_screen
+                0x000000000000469c        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x000000000000469c                layer_convert_rect_to_screen
  .text.scroll_layer_set_paging
-                0x00000000000046bc        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000046bc                scroll_layer_set_paging
+                0x00000000000046a8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000046a8                scroll_layer_set_paging
  .text.menu_layer_is_index_selected
-                0x00000000000046c8        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
-                0x00000000000046c8                menu_layer_is_index_selected
+                0x00000000000046b4        0xc /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+                0x00000000000046b4                menu_layer_is_index_selected
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00000000000046d4       0x1b src/simply/simply_menu.c.17.o
+                0x00000000000046c0       0x1b src/simply/simply_menu.c.17.o
                                          0x1c (size before relaxing)
- *fill*         0x00000000000046ef        0x1 
+ *fill*         0x00000000000046db        0x1 
  .rodata.segments.8286
-                0x00000000000046f0       0x30 src/simply/simply_msg.c.17.o
+                0x00000000000046dc       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8289
-                0x0000000000004720       0x28 src/simply/simply_msg.c.17.o
+                0x000000000000470c       0x28 src/simply/simply_msg.c.17.o
  .rodata.segments.8295
-                0x0000000000004748       0x30 src/simply/simply_msg.c.17.o
+                0x0000000000004734       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8298
-                0x0000000000004778       0x30 src/simply/simply_msg.c.17.o
+                0x0000000000004764       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8202
-                0x00000000000047a8       0x18 src/simply/simply_msg.c.17.o
+                0x0000000000004794       0x18 src/simply/simply_msg.c.17.o
  .rodata.segments.8292
-                0x00000000000047c0       0x30 src/simply/simply_msg.c.17.o
+                0x00000000000047ac       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8205
-                0x00000000000047f0        0x8 src/simply/simply_msg.c.17.o
+                0x00000000000047dc        0x8 src/simply/simply_msg.c.17.o
  .rodata.segments.8211
-                0x00000000000047f8       0x18 src/simply/simply_msg.c.17.o
+                0x00000000000047e4       0x18 src/simply/simply_msg.c.17.o
  .rodata.segments.8208
-                0x0000000000004810       0x20 src/simply/simply_msg.c.17.o
+                0x00000000000047fc       0x20 src/simply/simply_msg.c.17.o
  .rodata.segments.8214
-                0x0000000000004830       0x20 src/simply/simply_msg.c.17.o
+                0x000000000000481c       0x20 src/simply/simply_msg.c.17.o
  .rodata.segments.8220
-                0x0000000000004850       0x20 src/simply/simply_msg.c.17.o
+                0x000000000000483c       0x20 src/simply/simply_msg.c.17.o
  .rodata.segments.8217
-                0x0000000000004870       0x10 src/simply/simply_msg.c.17.o
+                0x000000000000485c       0x10 src/simply/simply_msg.c.17.o
  .rodata.segments.8223
-                0x000000000000          0x000000000000472c       0x20 src/simply/simply_msg.c.19.o
+                0x000000000000486c       0x18 src/simply/simply_msg.c.17.o
+ .rodata.segments.8226
+                0x0000000000004884       0x20 src/simply/simply_msg.c.17.o
+ .rodata.str1.1
+                0x00000000000048a4       0x26 src/simply/simply_msg.c.17.o
+ *fill*         0x00000000000048ca        0x2 
+ .rodata.segments.8232
+                0x00000000000048cc       0x10 src/simply/simply_msg.c.17.o
+ .rodata.segments.8229
+                0x00000000000048dc       0x10 src/simply/simply_msg.c.17.o
+ .rodata.segments.8235
+                0x00000000000048ec       0x18 src/simply/simply_msg.c.17.o
+ .rodata.segments.8196
+                0x0000000000004904       0x20 src/simply/simply_msg.c.17.o
+ .rodata.segments.8241
+                0x0000000000004924       0x20 src/simply/simply_msg.c.17.o
+ .rodata.segments.8238
+                0x0000000000004944       0x20 src/simply/simply_msg.c.17.o
+ .rodata.segments.8199
+                0x0000000000004964       0x20 src/simply/simply_msg.c.17.o
+ .rodata.segments.8244
+                0x0000000000004984       0x18 src/simply/simply_msg.c.17.o
+ .rodata.segments.8250
+                0x000000000000499c        0x8 src/simply/simply_msg.c.17.o
+ .rodata.segments.8247
+                0x00000000000049a4       0x18 src/simply/simply_msg.c.17.o
+ .rodata.segments.8253
+                0x00000000000049bc       0x18 src/simply/simply_msg.c.17.o
+ .rodata.segments.8256
+                0x00000000000049d4       0x20 src/simply/simply_msg.c.17.o
+ .rodata.segments.8301
+                0x00000000000049f4       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8262
-                0x000000000000474c       0x30 src/simply/simply_msg.c.19.o
- .rodata.segments.8190
-                0x000000000000477c       0x20 src/simply/simply_msg.c.19.o
- .rodata.segments.8265
-                0x000000000000479c       0x30 src/simply/simply_msg.c.19.o
+                0x0000000000004a24       0x20 src/simply/simply_msg.c.17.o
  .rodata.segments.8259
-                0x00000000000047cc       0x20 src/simply/simply_msg.c.19.o
+                0x0000000000004a44       0x18 src/simply/simply_msg.c.17.o
+ .rodata.segments.8304
+                0x0000000000004a5c       0x30 src/simply/simply_msg.c.17.o
+ .rodata.segments.8265
+                0x0000000000004a8c       0x20 src/simply/simply_msg.c.17.o
  .rodata.segments.8271
-                0x00000000000047ec       0x30 src/simply/simply_msg.c.19.o
+                0x0000000000004aac       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8268
-                0x000000000000481c       0x30 src/simply/simply_msg.c.19.o
+                0x0000000000004adc       0x20 src/simply/simply_msg.c.17.o
  .rodata.segments.8193
-                0x000000000000484c       0x18 src/simply/simply_msg.c.19.o
+                0x0000000000004afc       0x10 src/simply/simply_msg.c.17.o
  .rodata.segments.8274
-                0x0000000000004864       0x20 src/simply/simply_msg.c.19.o
+                0x0000000000004b0c       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8280
-                0x0000000000004884       0x28 src/simply/simply_msg.c.19.o
+                0x0000000000004b3c       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8277
-                0x00000000000048ac       0x30 src/simply/simply_msg.c.19.o
+                0x0000000000004b6c       0x30 src/simply/simply_msg.c.17.o
  .rodata.segments.8283
-                0x00000000000048dc       0x30 src/simply/simply_msg.c.19.o
+                0x0000000000004b9c       0x20 src/simply/simply_msg.c.17.o
  .rodata.str1.1
-                0x000000000000490c       0x16 src/simply/simply_stage.c.19.o
+                0x0000000000004bbc       0x16 src/simply/simply_stage.c.17.o
  .rodata.str1.1
-                0x0000000000004922       0x7d src/simply/simply_ui.c.19.o
+                0x0000000000004bd2       0x7d src/simply/simply_ui.c.17.o
+ .rodata.str1.1
+                0x0000000000000000        0x1 src/simply/simply_voice.c.17.o
 
-.glue_7         0x00000000000049a0        0x0
+.glue_7         0x0000000000004c50        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x00000000000049a0        0x0
+.glue_7t        0x0000000000004c50        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x00000000000049a0        0x0
+.vfp11_veneer   0x0000000000004c50        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x00000000000049a0        0x0
+.v4_bx          0x0000000000004c50        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x00000000000049a0        0x0
+.iplt           0x0000000000004c50        0x0
  .iplt          0x0000000000000000        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x00000000000049a0        0x0
+.rel.dyn        0x0000000000004c50        0x0
  .rel.iplt      0x0000000000000000        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.ARM.exidx      0x00000000000049a0        0x8
- .ARM.exidx     0x00000000000049a0        0x8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .ARM.exidx     0x00000000000049a8        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+.ARM.exidx      0x0000000000004c50        0x8
+ .ARM.exidx     0x0000000000004c50        0x8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0000000000004c58        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
                                           0x8 (size before relaxing)
 
-.data           0x00000000000049a8      0x1e6
+.data           0x0000000000004c58      0x1de
  *(.data)
- .data          0x00000000000049a8        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x00000000000049a8        0x4 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x00000000000049a8                __dso_handle
- .data          0x00000000000049ac        0x0 src/main.c.19.o
- .data          0x00000000000049ac        0x0 src/simply/simply.c.19.o
- .data          0x00000000000049ac        0x0 src/simply/simply_accel.c.19.o
- .data          0x00000000000049ac        0x0 src/simply/simply_menu.c.19.o
- .data          0x00000000000049ac      0x138 src/simply/simply_msg.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_res.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_splash.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_stage.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_ui.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_voice.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_wakeup.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_window.c.19.o
- .data          0x0000000000004ae4        0x0 src/simply/simply_window_stack.c.19.o
- .data          0x0000000000004ae4        0x0 aplite/appinfo.auto.c.19.o
- .data          0x0000000000004ae4        0x0 /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpeWFBzLpebble.o)
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x0000000000004ae4        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x0000000000004c58        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000004c58        0x4 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000004c58                __dso_handle
+ .data          0x0000000000004c5c        0x0 src/main.c.17.o
+ .data          0x0000000000004c5c        0x0 src/simply/simply.c.17.o
+ .data          0x0000000000004c5c        0x0 src/simply/simply_accel.c.17.o
+ .data          0x0000000000004c5c        0x0 src/simply/simply_menu.c.17.o
+ .data          0x0000000000004c5c      0x130 src/simply/simply_msg.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_res.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_splash.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_stage.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_ui.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_voice.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_wakeup.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_window.c.17.o
+ .data          0x0000000000004d8c        0x0 src/simply/simply_window_stack.c.17.o
+ .data          0x0000000000004d8c        0x0 chalk/appinfo.auto.c.17.o
+ .data          0x0000000000004d8c        0x0 /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x0000000000004d8c        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
- .data.rel.ro.local.s_window_handlers.8292
-                0x0000000000004ae4       0x10 src/simply/simply_menu.c.19.o
+ .data.rel.ro.local.s_window_handlers.8293
+                0x0000000000004d8c       0x10 src/simply/simply_menu.c.17.o
  .data.s_normal_palette
-                0x0000000000004af4        0x2 src/simply/simply_menu.c.19.o
+                0x0000000000004d9c        0x2 src/simply/simply_menu.c.17.o
  .data.s_inverted_palette
-                0x0000000000004af6        0x2 src/simply/simply_menu.c.19.o
- .data.rel.ro.local.s_window_handlers.8377
-                0x0000000000004af8       0x10 src/simply/simply_stage.c.19.o
- .data.rel.ro.implementation.8244
-                0x0000000000004b08       0x14 src/simply/simply_stage.c.19.o
- .data.rel.ro.local.s_window_handlers.8073
-                0x0000000000004b1c       0x10 src/simply/simply_ui.c.19.o
+                0x0000000000004d9e        0x2 src/simply/simply_menu.c.17.o
+ .data.rel.ro.local.s_window_handlers.8378
+                0x0000000000004da0       0x10 src/simply/simply_stage.c.17.o
+ .data.rel.ro.implementation.8245
+                0x0000000000004db0       0x14 src/simply/simply_stage.c.17.o
+ .data.rel.ro.local.s_window_handlers.8072
+                0x0000000000004dc4       0x10 src/simply/simply_ui.c.17.o
  .data.rel.ro.local.STYLES
-                0x0000000000004b2c       0x5f src/simply/simply_ui.c.19.o
+                0x0000000000004dd4       0x5f src/simply/simply_ui.c.17.o
  .data.s_button_palette
-                0x0000000000004b8b        0x2 src/simply/simply_window.c.19.o
+                0x0000000000004e33        0x2 src/simply/simply_window.c.17.o
  .data.s_broadcast_window
-                0x0000000000004b8d        0x1 src/simply/simply_window_stack.c.19.o
+                0x0000000000004e35        0x1 src/simply/simply_window_stack.c.17.o
 
-.igot.plt       0x0000000000004b90        0x0
+.igot.plt       0x0000000000004e38        0x0
  .igot.plt      0x0000000000000000        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.bss            0x0000000000004b90      0x114
+.bss            0x0000000000004e38      0x118
  *(.bss)
  *(.bss.*)
- .bss.s_accel   0x0000000000004b90        0x4 src/simply/simply_accel.c.19.o
- .bss.s_provider.7868
-                0x0000000000004b94        0x4 src/simply/simply_menu.c.19.o
+ .bss.s_accel   0x0000000000004e38        0x4 src/simply/simply_accel.c.17.o
+ .bss.s_provider.7869
+                0x0000000000004e3c        0x4 src/simply/simply_menu.c.17.o
  .bss.s_has_communicated
-                0x0000000000004b98        0x1 src/simply/simply_msg.c.19.o
- *fill*         0x0000000000004b99        0x3 
- .bss.s_msg     0x0000000000004b9c        0x4 src/simply/simply_msg.c.19.o
- .bss.time_text.8140
-                0x0000000000004ba0      0x100 src/simply/simply_stage.c.19.o
- .bss.s_provider.7864
-                0x0000000000004ca0        0x4 src/simply/simply_window.c.19.o
+                0x0000000000004e40        0x1 src/simply/simply_msg.c.17.o
+ *fill*         0x0000000000004e41        0x3 
+ .bss.s_msg     0x0000000000004e44        0x4 src/simply/simply_msg.c.17.o
+ .bss.time_text.8141
+                0x0000000000004e48      0x100 src/simply/simply_stage.c.17.o
+ .bss.s_voice   0x0000000000004f48        0x4 src/simply/simply_voice.c.17.o
+ .bss.s_provider.7873
+                0x0000000000004f4c        0x4 src/simply/simply_window.c.17.o
 
 DISCARD
  libc.a(*)
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/eliyazdi/BuzzVoice/build/aplite/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/eliyazdi/BuzzVoice/build/chalk/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -2076,35 +2110,35 @@ OUTPUT(/Users/eliyazdi/BuzzVoice/build/aplite/pebble-app.elf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000019       0x29 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .ARM.attributes
-                0x0000000000000042       0x33 src/main.c.19.o
+                0x0000000000000042       0x33 src/main.c.17.o
  .ARM.attributes
-                0x0000000000000075       0x33 src/simply/simply.c.19.o
+                0x0000000000000075       0x33 src/simply/simply.c.17.o
  .ARM.attributes
-                0x00000000000000a8       0x33 src/simply/simply_accel.c.19.o
+                0x00000000000000a8       0x33 src/simply/simply_accel.c.17.o
  .ARM.attributes
-                0x00000000000000db       0x33 src/simply/simply_menu.c.19.o
+                0x00000000000000db       0x33 src/simply/simply_menu.c.17.o
  .ARM.attributes
-                0x000000000000010e       0x33 src/simply/simply_msg.c.19.o
+                0x000000000000010e       0x33 src/simply/simply_msg.c.17.o
  .ARM.attributes
-                0x0000000000000141       0x33 src/simply/simply_res.c.19.o
+                0x0000000000000141       0x33 src/simply/simply_res.c.17.o
  .ARM.attributes
-                0x0000000000000174       0x33 src/simply/simply_splash.c.19.o
+                0x0000000000000174       0x33 src/simply/simply_splash.c.17.o
  .ARM.attributes
-                0x00000000000001a7       0x33 src/simply/simply_stage.c.19.o
+                0x00000000000001a7       0x33 src/simply/simply_stage.c.17.o
  .ARM.attributes
-                0x00000000000001da       0x33 src/simply/simply_ui.c.19.o
+                0x00000000000001da       0x33 src/simply/simply_ui.c.17.o
  .ARM.attributes
-                0x000000000000020d       0x33 src/simply/simply_voice.c.19.o
+                0x000000000000020d       0x33 src/simply/simply_voice.c.17.o
  .ARM.attributes
-                0x0000000000000240       0x33 src/simply/simply_wakeup.c.19.o
+                0x0000000000000240       0x33 src/simply/simply_wakeup.c.17.o
  .ARM.attributes
-                0x0000000000000273       0x33 src/simply/simply_window.c.19.o
+                0x0000000000000273       0x33 src/simply/simply_window.c.17.o
  .ARM.attributes
-                0x00000000000002a6       0x33 src/simply/simply_window_stack.c.19.o
+                0x00000000000002a6       0x33 src/simply/simply_window_stack.c.17.o
  .ARM.attributes
-                0x00000000000002d9       0x33 aplite/appinfo.auto.c.19.o
+                0x00000000000002d9       0x33 chalk/appinfo.auto.c.17.o
  .ARM.attributes
-                0x000000000000030c       0x21 /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpeWFBzLpebble.o)
+                0x000000000000030c       0x21 /Users/eliyazdi/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk/lib/libpebble.a(tmpvl4HRLpebble.o)
  .ARM.attributes
                 0x000000000000032d       0x19 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
  .ARM.attributes
@@ -2125,236 +2159,218 @@ OUTPUT(/Users/eliyazdi/BuzzVoice/build/aplite/pebble-app.elf elf32-littlearm)
 .comment        0x0000000000000000       0x4e
  .comment       0x0000000000000000       0x4e /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
                                          0x4f (size before relaxing)
- .comment       0x0000000000000000       0x4f src/main.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_accel.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_menu.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_msg.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_res.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_splash.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_stage.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_ui.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_voice.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_wakeup.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_window.c.19.o
- .comment       0x0000000000000000       0x4f src/simply/simply_window_stack.c.19.o
- .comment       0x0000000000000000       0x4f aplite/appinfo.auto.c.19.o
+ .comment       0x0000000000000000       0x4f src/main.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_accel.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_menu.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_msg.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_res.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_splash.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_stage.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_ui.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_voice.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_wakeup.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_window.c.17.o
+ .comment       0x0000000000000000       0x4f src/simply/simply_window_stack.c.17.o
+ .comment       0x0000000000000000       0x4f chalk/appinfo.auto.c.17.o
  .comment       0x0000000000000000       0x4f /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
  .comment       0x0000000000000000       0x4f /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
  .comment       0x0000000000000000       0x4f /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
  .comment       0x0000000000000000       0x4f /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000    0x16e42
- .debug_info    0x0000000000000000      0x256 src/main.c.19.o
- .debug_info    0x0000000000000256      0xcab src/simply/simply.c.19.o
- .debug_info    0x0000000000000f01      0xd7c src/simply/simply_accel.c.19.o
- .debug_info    0x0000000000001c7d     0x40c9 src/simply/simply_menu.c.19.o
- .debug_info    0x0000000000005d46     0x31d6 src/simply/simply_msg.c.19.o
- .debug_info    0x0000000000008f1c     0x13d4 src/simply/simply_res.c.19.o
- .debug_info    0x000000000000a2f0      0x8e8 src/simply/simply_splash.c.19.o
- .debug_info    0x000000000000abd8     0x46fb src/simply/simply_stage.c.19.o
- .debug_info    0x000000000000f2d3     0x263d src/simply/simply_ui.c.19.o
- .debug_info    0x0000000000011910       0x80 src/simply/simply_voice.c.19.o
- .debug_info    0x0000000000011990      0xba7 src/simply/simply_wakeup.c.19.o
- .debug_info    0x0000000000012537     0x2539 src/simply/simply_window.c.19.o
- .debug_info    0x0000000000014a70     0x1040 src/simply/simply_window_stack.c.19.o
- .debug_info    0x0000000000015ab0      0x319 aplite/appinfo.auto.c.19.o
- .debug_info    0x0000000000015dc9       0xb4 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
- .debug_info    0x0000000000015e7d      0x174 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
- .debug_info    0x0000000000015ff1       0xb8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
- .debug_info    0x00000000000160a9      0x68f /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .debug_info    0x0000000000016738      0x652 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
- .debug_info    0x0000000000016d8a       0xb8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
+.debug_info     0x0000000000000000    0x17e3f
+ .debug_info    0x0000000000000000      0x256 src/main.c.17.o
+ .debug_info    0x0000000000000256      0xd15 src/simply/simply.c.17.o
+ .debug_info    0x0000000000000f6b      0xd7c src/simply/simply_accel.c.17.o
+ .debug_info    0x0000000000001ce7     0x4325 src/simply/simply_menu.c.17.o
+ .debug_info    0x000000000000600c     0x31c4 src/simply/simply_msg.c.17.o
+ .debug_info    0x00000000000091d0     0x13d4 src/simply/simply_res.c.17.o
+ .debug_info    0x000000000000a5a4      0x8e8 src/simply/simply_splash.c.17.o
+ .debug_info    0x000000000000ae8c     0x470c src/simply/simply_stage.c.17.o
+ .debug_info    0x000000000000f598     0x28f9 src/simply/simply_ui.c.17.o
+ .debug_info    0x0000000000011e91      0xac0 src/simply/simply_voice.c.17.o
+ .debug_info    0x0000000000012951      0xba7 src/simply/simply_wakeup.c.17.o
+ .debug_info    0x00000000000134f8     0x2565 src/simply/simply_window.c.17.o
+ .debug_info    0x0000000000015a5d     0x1050 src/simply/simply_window_stack.c.17.o
+ .debug_info    0x0000000000016aad      0x319 chalk/appinfo.auto.c.17.o
+ .debug_info    0x0000000000016dc6       0xb4 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
+ .debug_info    0x0000000000016e7a      0x174 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+ .debug_info    0x0000000000016fee       0xb8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000000000170a6      0x68f /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_info    0x0000000000017735      0x652 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000017d87       0xb8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
 
-.debug_abbrev   0x0000000000000000     0x34cf
- .debug_abbrev  0x0000000000000000      0x14d src/main.c.19.o
- .debug_abbrev  0x000000000000014d      0x28b src/simply/simply.c.19.o
- .debug_abbrev  0x00000000000003d8      0x354 src/simply/simply_accel.c.19.o
- .debug_abbrev  0x000000000000072c      0x5ef src/simply/simply_menu.c.19.o
- .debug_abbrev  0x0000000000000d1b      0x591 src/simply/simply_msg.c.19.o
- .debug_abbrev  0x00000000000012ac      0x449 src/simply/simply_res.c.19.o
- .debug_abbrev  0x00000000000016f5      0x2ca src/simply/simply_splash.c.19.o
- .debug_abbrev  0x00000000000019bf      0x5c4 src/simply/simply_stage.c.19.o
- .debug_abbrev  0x0000000000001f83      0x52a src/simply/simply_ui.c.19.o
- .debug_abbrev  0x00000000000024ad       0x26 src/simply/simply_voice.c.19.o
- .debug_abbrev  0x00000000000024d3      0x30b src/simply/simply_wakeup.c.19.o
- .debug_abbrev  0x00000000000027de      0x4e2 src/simply/simply_window.c.19.o
- .debug_abbrev  0x0000000000002cc0      0x3e2 src/simply/simply_window_stack.c.19.o
- .debug_abbrev  0x00000000000030a2       0x9e aplite/appinfo.auto.c.19.o
- .debug_abbrev  0x0000000000003140       0x14 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
- .debug_abbrev  0x0000000000003154       0xb7 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
- .debug_abbrev  0x000000000000320b       0x14 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x000000000000321f      0x151 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .debug_abbrev  0x0000000000003370      0x14b /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
- .debug_abbrev  0x00000000000034bb       0x14 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
+.debug_abbrev   0x0000000000000000     0x37a4
+ .debug_abbrev  0x0000000000000000      0x14d src/main.c.17.o
+ .debug_abbrev  0x000000000000014d      0x28b src/simply/simply.c.17.o
+ .debug_abbrev  0x00000000000003d8      0x354 src/simply/simply_accel.c.17.o
+ .debug_abbrev  0x000000000000072c      0x5ef src/simply/simply_menu.c.17.o
+ .debug_abbrev  0x0000000000000d1b      0x591 src/simply/simply_msg.c.17.o
+ .debug_abbrev  0x00000000000012ac      0x449 src/simply/simply_res.c.17.o
+ .debug_abbrev  0x00000000000016f5      0x2ca src/simply/simply_splash.c.17.o
+ .debug_abbrev  0x00000000000019bf      0x5c4 src/simply/simply_stage.c.17.o
+ .debug_abbrev  0x0000000000001f83      0x53c src/simply/simply_ui.c.17.o
+ .debug_abbrev  0x00000000000024bf      0x2e9 src/simply/simply_voice.c.17.o
+ .debug_abbrev  0x00000000000027a8      0x30b src/simply/simply_wakeup.c.17.o
+ .debug_abbrev  0x0000000000002ab3      0x4e2 src/simply/simply_window.c.17.o
+ .debug_abbrev  0x0000000000002f95      0x3e2 src/simply/simply_window_stack.c.17.o
+ .debug_abbrev  0x0000000000003377       0x9e chalk/appinfo.auto.c.17.o
+ .debug_abbrev  0x0000000000003415       0x14 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000003429       0xb7 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+ .debug_abbrev  0x00000000000034e0       0x14 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00000000000034f4      0x151 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_abbrev  0x0000000000003645      0x14b /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000003790       0x14 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
 
-.debug_loc      0x0000000000000000     0x9e99
- .debug_loc     0x0000000000000000       0x3e src/main.c.19.o
- .debug_loc     0x000000000000003e       0x7c src/simply/simply.c.19.o
- .debug_loc     0x00000000000000ba      0x4dc src/simply/simply_accel.c.19.o
- .debug_loc     0x0000000000000596     0x1dff src/simply/simply_menu.c.19.o
- .debug_loc     0x0000000000002395      0xbba src/simply/simply_msg.c.19.o
- .debug_loc     0x0000000000002f4f      0xccb src/simply/simply_res.c.19.o
- .debug_loc     0x0000000000003c1a      0x1ec src/simply/simply_splash.c.19.o
- .debug_loc     0x0000000000003e06     0x18a8 src/simply/simply_stage.c.19.o
- .debug_loc     0x00000000000056ae     0x118f src/simply/simply_ui.c.19.o
- .debug_loc     0x000000000000683d      0x340 src/simply/simply_wakeup.c.19.o
- .debug_loc     0x0000000000006b7d      0xd6f src/simply/simply_window.c.19.o
- .debug_loc     0x00000000000078ec      0x6aa src/simply/simply_window_stack.c.19.o
- .debug_loc     0x0000000000007f96       0xe0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
- .debug_loc     0x0000000000008076      0xebd /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .debug_loc     0x0000000000008f33      0xf66 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+.debug_loc      0x0000000000000000     0xa2df
+ .debug_loc     0x0000000000000000       0x3e src/main.c.17.o
+ .debug_loc     0x000000000000003e       0x7c src/simply/simply.c.17.o
+ .debug_loc     0x00000000000000ba      0x4dc src/simply/simply_accel.c.17.o
+ .debug_loc     0x0000000000000596     0x1edd src/simply/simply_menu.c.17.o
+ .debug_loc     0x0000000000002473      0xbba src/simply/simply_msg.c.17.o
+ .debug_loc     0x000000000000302d      0xccb src/simply/simply_res.c.17.o
+ .debug_loc     0x0000000000003cf8      0x1ec src/simply/simply_splash.c.17.o
+ .debug_loc     0x0000000000003ee4     0x18a8 src/simply/simply_stage.c.17.o
+ .debug_loc     0x000000000000578c     0x1124 src/simply/simply_ui.c.17.o
+ .debug_loc     0x00000000000068b0      0x3a4 src/simply/simply_voice.c.17.o
+ .debug_loc     0x0000000000006c54      0x340 src/simply/simply_wakeup.c.17.o
+ .debug_loc     0x0000000000006f94      0xd9e src/simply/simply_window.c.17.o
+ .debug_loc     0x0000000000007d32      0x6aa src/simply/simply_window_stack.c.17.o
+ .debug_loc     0x00000000000083dc       0xe0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+ .debug_loc     0x00000000000084bc      0xebd /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_loc     0x0000000000009379      0xf66 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
 
-.debug_aranges  0x0000000000000000      0x738
+.debug_aranges  0x0000000000000000      0x780
  .debug_aranges
-                0x0000000000000000       0x20 src/main.c.19.o
+                0x0000000000000000       0x20 src/main.c.17.o
  .debug_aranges
-                0x0000000000000020       0x28 src/simply/simply.c.19.o
+                0x0000000000000020       0x28 src/simply/simply.c.17.o
  .debug_aranges
-                0x0000000000000048       0x50 src/simply/simply_accel.c.19.o
+                0x0000000000000048       0x50 src/simply/simply_accel.c.17.o
  .debug_aranges
-                0x0000000000000098      0x130 src/simply/simply_menu.c.19.o
+                0x0000000000000098      0x138 src/simply/simply_menu.c.17.o
  .debug_aranges
-                0x00000000000001c8       0x90 src/simply/simply_msg.c.19.o
+                0x00000000000001d0       0x90 src/simply/simply_msg.c.17.o
  .debug_aranges
-                0x0000000000000258       0xb0 src/simply/simply_res.c.19.o
+                0x0000000000000260       0xb0 src/simply/simply_res.c.17.o
  .debug_aranges
-                0x0000000000000308       0x40 src/simply/simply_splash.c.19.o
+                0x0000000000000310       0x40 src/simply/simply_splash.c.17.o
  .debug_aranges
-                0x0000000000000348       0xf8 src/simply/simply_stage.c.19.o
+                0x0000000000000350       0xf8 src/simply/simply_stage.c.17.o
  .debug_aranges
-                0x0000000000000440       0x90 src/simply/simply_ui.c.19.o
+                0x0000000000000448       0x98 src/simply/simply_ui.c.17.o
  .debug_aranges
-                0x00000000000004d0       0x18 src/simply/simply_voice.c.19.o
+                0x00000000000004e0       0x50 src/simply/simply_voice.c.17.o
  .debug_aranges
-                0x00000000000004e8       0x38 src/simply/simply_wakeup.c.19.o
+                0x0000000000000530       0x38 src/simply/simply_wakeup.c.17.o
  .debug_aranges
-                0x0000000000000520       0xd0 src/simply/simply_window.c.19.o
+                0x0000000000000568       0xd0 src/simply/simply_window.c.17.o
  .debug_aranges
-                0x00000000000005f0       0x70 src/simply/simply_window_stack.c.19.o
+                0x0000000000000638       0x70 src/simply/simply_window_stack.c.17.o
  .debug_aranges
-                0x0000000000000660       0x18 aplite/appinfo.auto.c.19.o
+                0x00000000000006a8       0x18 chalk/appinfo.auto.c.17.o
  .debug_aranges
-                0x0000000000000678       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
+                0x00000000000006c0       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
  .debug_aranges
-                0x0000000000000698       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+                0x00000000000006e0       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
  .debug_aranges
-                0x00000000000006b8       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
+                0x0000000000000700       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
  .debug_aranges
-                0x00000000000006d8       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+                0x0000000000000720       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
  .debug_aranges
-                0x00000000000006f8       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+                0x0000000000000740       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
  .debug_aranges
-                0x0000000000000718       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
+                0x0000000000000760       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
 
-.debug_ranges   0x0000000000000000     0x11d0
- .debug_ranges  0x0000000000000000       0x10 src/main.c.19.o
- .debug_ranges  0x0000000000000010       0x18 src/simply/simply.c.19.o
- .debug_ranges  0x0000000000000028       0x88 src/simply/simply_accel.c.19.o
- .debug_ranges  0x00000000000000b0      0x318 src/simply/simply_menu.c.19.o
- .debug_ranges  0x00000000000003c8      0x310 src/simply/simply_msg.c.19.o
- .debug_ranges  0x00000000000006d8       0xe8 src/simply/simply_res.c.19.o
- .debug_ranges  0x00000000000007c0       0x30 src/simply/simply_splash.c.19.o
- .debug_ranges  0x00000000000007f0      0x3c0 src/simply/simply_stage.c.19.o
- .debug_ranges  0x0000000000000bb0      0x200 src/simply/simply_ui.c.19.o
- .debug_ranges  0x0000000000000db0       0x58 src/simply/simply_wakeup.c.19.o
- .debug_ranges  0x0000000000000e08      0x108 src/simply/simply_window.c.19.o
- .debug_ranges  0x0000000000000f10       0xc0 src/simply/simply_window_stack.c.19.o
- .debug_ranges  0x0000000000000fd0      0x108 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .debug_ranges  0x00000000000010d8       0xf8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+.debug_ranges   0x0000000000000000     0x1250
+ .debug_ranges  0x0000000000000000       0x10 src/main.c.17.o
+ .debug_ranges  0x0000000000000010       0x18 src/simply/simply.c.17.o
+ .debug_ranges  0x0000000000000028       0x88 src/simply/simply_accel.c.17.o
+ .debug_ranges  0x00000000000000b0      0x350 src/simply/simply_menu.c.17.o
+ .debug_ranges  0x0000000000000400      0x310 src/simply/simply_msg.c.17.o
+ .debug_ranges  0x0000000000000710       0xe8 src/simply/simply_res.c.17.o
+ .debug_ranges  0x00000000000007f8       0x30 src/simply/simply_splash.c.17.o
+ .debug_ranges  0x0000000000000828      0x3c0 src/simply/simply_stage.c.17.o
+ .debug_ranges  0x0000000000000be8      0x208 src/simply/simply_ui.c.17.o
+ .debug_ranges  0x0000000000000df0       0x40 src/simply/simply_voice.c.17.o
+ .debug_ranges  0x0000000000000e30       0x58 src/simply/simply_wakeup.c.17.o
+ .debug_ranges  0x0000000000000e88      0x108 src/simply/simply_window.c.17.o
+ .debug_ranges  0x0000000000000f90       0xc0 src/simply/simply_window_stack.c.17.o
+ .debug_ranges  0x0000000000001050      0x108 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_ranges  0x0000000000001158       0xf8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000     0x3b89
- .debug_line    0x0000000000000000       0xca src/main.c.19.o
- .debug_line    0x00000000000000ca      0x2dd src/simply/simply.c.19.o
- .debug_line    0x00000000000003a7      0x2d8 src/simply/simply_accel.c.19.o
- .debug_line    0x000000000000067f      0x918 src/simply/simply_menu.c.19.o
- .debug_line    0x0000000000000f97      0x5c6 src/simply/simply_msg.c.19.o
- .debug_line    0x000000000000155d      0x4ad src/simply/simply_res.c.19.o
- .debug_line    0x0000000000001a0a      0x27b src/simply/simply_splash.c.19.o
- .debug_line    0x0000000000001c85      0x7df src/simply/simply_stage.c.19.o
- .debug_line    0x0000000000002464      0x5ed src/simply/simply_ui.c.19.o
- .debug_line    0x0000000000002a51       0x1d src/simply/simply_voice.c.19.o
- .debug_line    0x0000000000002a6e      0x315 src/simply/simply_wakeup.c.19.o
- .debug_line    0x0000000000002d83      0x58e src/simply/simply_window.c.19.o
- .debug_line    0x0000000000003311      0x379 src/simply/simply_window_stack.c.19.o
- .debug_line    0x000000000000368a      0x159 aplite/appinfo.auto.c.19.o
- .debug_line    0x00000000000037e3       0x71 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
- .debug_line    0x0000000000003854       0x71 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
- .debug_line    0x00000000000038c5       0x6d /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
- .debug_line    0x0000000000003932       0xef /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .debug_line    0x0000000000003a21       0xd8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
- .debug_line    0x0000000000003af9       0x90 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
+.debug_line     0x0000000000000000     0x3e99
+ .debug_line    0x0000000000000000       0xc9 src/main.c.17.o
+ .debug_line    0x00000000000000c9      0x2da src/simply/simply.c.17.o
+ .debug_line    0x00000000000003a3      0x2d7 src/simply/simply_accel.c.17.o
+ .debug_line    0x000000000000067a      0x957 src/simply/simply_menu.c.17.o
+ .debug_line    0x0000000000000fd1      0x5c4 src/simply/simply_msg.c.17.o
+ .debug_line    0x0000000000001595      0x4ac src/simply/simply_res.c.17.o
+ .debug_line    0x0000000000001a41      0x279 src/simply/simply_splash.c.17.o
+ .debug_line    0x0000000000001cba      0x7de src/simply/simply_stage.c.17.o
+ .debug_line    0x0000000000002498      0x616 src/simply/simply_ui.c.17.o
+ .debug_line    0x0000000000002aae      0x2d5 src/simply/simply_voice.c.17.o
+ .debug_line    0x0000000000002d83      0x314 src/simply/simply_wakeup.c.17.o
+ .debug_line    0x0000000000003097      0x58d src/simply/simply_window.c.17.o
+ .debug_line    0x0000000000003624      0x379 src/simply/simply_window_stack.c.17.o
+ .debug_line    0x000000000000399d      0x156 chalk/appinfo.auto.c.17.o
+ .debug_line    0x0000000000003af3       0x71 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line    0x0000000000003b64       0x71 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+ .debug_line    0x0000000000003bd5       0x6d /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000003c42       0xef /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_line    0x0000000000003d31       0xd8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000003e09       0x90 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
 
-.debug_str      0x0000000000000000     0x5016
- .debug_str     0x0000000000000000      0x186 src/main.c.19.o
+.debug_str      0x0000000000000000     0x54fc
+ .debug_str     0x0000000000000000      0x180 src/main.c.17.o
                                         0x1c5 (size before relaxing)
- .debug_str     0x0000000000000186      0x4e8 src/simply/simply.c.19.o
-                                        0x747 (size before relaxing)
- .debug_str     0x000000000000066e      0x70a src/simply/simply_accel.c.19.o
+ .debug_str     0x0000000000000180      0x511 src/simply/simply.c.17.o
+                                        0x789 (size before relaxing)
+ .debug_str     0x0000000000000691      0x70a src/simply/simply_accel.c.17.o
                                         0xa2b (size before relaxing)
- .debug_str     0x0000000000000d78     0x12f4 src/simply/simply_menu.c.19.o
-                                       0x1dbb (size before relaxing)
- .debug_str     0x000000000000206c      0x9a9 src/simply/simply_msg.c.19.o
-                                       0x15d7 (size before relaxing)
- .debug_str     0x0000000000002a15      0x2fd src/simply/simply_res.c.19.o
+ .debug_str     0x0000000000000d9b     0x1450 src/simply/simply_menu.c.17.o
+                                       0x1f36 (size before relaxing)
+ .debug_str     0x00000000000021eb      0x9c4 src/simply/simply_msg.c.17.o
+                                       0x160b (size before relaxing)
+ .debug_str     0x0000000000002baf      0x2fd src/simply/simply_res.c.17.o
                                         0x6c9 (size before relaxing)
- .debug_str     0x0000000000002d12      0x196 src/simply/simply_splash.c.19.o
+ .debug_str     0x0000000000002eac      0x196 src/simply/simply_splash.c.17.o
                                         0x4ba (size before relaxing)
- .debug_str     0x0000000000002ea8      0xe72 src/simply/simply_stage.c.19.o
-                                       0x1ea3 (size before relaxing)
- .debug_str     0x0000000000003d1a      0x43c src/simply/simply_ui.c.19.o
-                                       0x165f (size before relaxing)
- .debug_str     0x0000000000004156       0x1d src/simply/simply_voice.c.19.o
-                                         0xed (size before relaxing)
- .debug_str     0x0000000000004173      0x25c src/simply/simply_wakeup.c.19.o
+ .debug_str     0x0000000000003042      0xe72 src/simply/simply_stage.c.17.o
+                                       0x1ebc (size before relaxing)
+ .debug_str     0x0000000000003eb4      0x458 src/simply/simply_ui.c.17.o
+                                       0x17a0 (size before relaxing)
+ .debug_str     0x000000000000430c      0x355 src/simply/simply_voice.c.17.o
+                                        0xadc (size before relaxing)
+ .debug_str     0x0000000000004661      0x25c src/simply/simply_wakeup.c.17.o
                                         0x9a0 (size before relaxing)
- .debug_str     0x00000000000043cf      0x7b2 src/simply/simply_window.c.19.o
-                                       0x154b (size before relaxing)
- .debug_str     0x0000000000004b81      0x19c src/simply/simply_window_stack.c.19.o
-                                        0xb79 (size before relaxing)
- .debug_str     0x0000000000004d1d      0x157 aplite/appinfo.auto.c.19.o
-                                        0x2eb (size before relaxing)
- .debug_str     0x0000000000004e74       0xdc /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+ .debug_str     0x00000000000048bd      0x7ab src/simply/simply_window.c.17.o
+                                       0x1587 (size before relaxing)
+ .debug_str     0x0000000000005068      0x19c src/simply/simply_window_stack.c.17.o
+                                        0xb92 (size before relaxing)
+ .debug_str     0x0000000000005204      0x156 chalk/appinfo.auto.c.17.o
+                                        0x2ea (size before relaxing)
+ .debug_str     0x000000000000535a       0xdc /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
                                         0x10d (size before relaxing)
- .debug_str     0x0000000000004f50       0xc6 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
-                                        0x1da (size before relaxing)
- .debug_str     0x0000000000000000      0x1db /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
-
-.debug_frame    0x0000000000000000     0x1278
- .debug_frame   0x0000000000000000       0x28 src/main.c.19.o
- .debug_frame   0x0000000000000028       0x44 src/simply/simply.c.19.o
- .debug_frame   0x000000000000006c       0xd0 src/simply/simply_accel.c.19.o
- .debug_frame   0x000000000000013c      0x390 src/simply/simply_menu.c.19.o
- .debug_frame   0x00000000000004cc      0x194 src/simply/simply_msg.c.19.o
- .debug_frame   0x0000000000000660      0x1e8 src/simply/simply_res.c.19.o
- .debug_frame   0x0000000000000848       0x9c src/simply/simply_splash.c.19.o
- .debug_frame   0x00000000000008e4      0x2f8 src/simply/simply_stage.c.19.o
- .debug_frame   0x0000000000000bdc      0x1a0 src/simply/simply_ui.c.19.o
- .debug_frame   0x0000000000000d7c       0x7c src/simply/simply_wakeup.c.19.o
- .debug_frame   0x0000000000000df8      0x288 src/simply/simply_window.c.19.o
- .debug_frame   0x0000000000001080      0x114 src/simply/simply_window_stack.c.19.o
- .debug_frame   0x0000000000001194       0x54 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
- .debug_frame   0x00000000000011e8       0x38 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .debug_frame   0x0000000000001220       0x38 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
- .debug_frame   0x0000000000001258       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
-arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_str     0x0000000000005436       0xc6 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
                                         0x1da (size before relaxing)
  .debug_str     0x0000000000000000      0x1db /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
 
 .debug_frame    0x0000000000000000     0x1360
- .debug_frame   0x00ug_frame   0x0000000000000138      0x390 src/simply/simply_menu.c.18.o
- .debug_frame   0x00000000000004c8      0x194 src/simply/simply_msg.c.18.o
- .debug_frame   0x000000000000065c      0x1e8 src/simply/simply_res.c.18.o
- .debug_frame   0x0000000000000844       0x9c src/simply/simply_splash.c.18.o
- .debug_frame   0x00000000000008e0      0x2f8 src/simply/simply_stage.c.18.o
- .debug_frame   0x0000000000000bd8      0x1a0 src/simply/simply_ui.c.18.o
- .debug_frame   0x0000000000000d78       0xb0 src/simply/simply_voice.c.18.o
- .debug_frame   0x0000000000000e28       0x7c src/simply/simply_wakeup.c.18.o
- .debug_frame   0x0000000000000ea4      0x288 src/simply/simply_window.c.18.o
- .debug_frame   0x000000000000112c      0x114 src/simply/simply_window_stack.c.18.o
- .debug_frame   0x0000000000001240       0x54 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
- .debug_frame   0x0000000000001294       0x38 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
- .debug_frame   0x00000000000012cc       0x38 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
- .debug_frame   0x0000000000001304       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
-4.7.2/thumb2/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000000       0x28 src/main.c.17.o
+ .debug_frame   0x0000000000000028       0x40 src/simply/simply.c.17.o
+ .debug_frame   0x0000000000000068       0xd0 src/simply/simply_accel.c.17.o
+ .debug_frame   0x0000000000000138      0x3ac src/simply/simply_menu.c.17.o
+ .debug_frame   0x00000000000004e4      0x194 src/simply/simply_msg.c.17.o
+ .debug_frame   0x0000000000000678      0x1e8 src/simply/simply_res.c.17.o
+ .debug_frame   0x0000000000000860       0x9c src/simply/simply_splash.c.17.o
+ .debug_frame   0x00000000000008fc      0x2f8 src/simply/simply_stage.c.17.o
+ .debug_frame   0x0000000000000bf4      0x1c0 src/simply/simply_ui.c.17.o
+ .debug_frame   0x0000000000000db4       0xb0 src/simply/simply_voice.c.17.o
+ .debug_frame   0x0000000000000e64       0x7c src/simply/simply_wakeup.c.17.o
+ .debug_frame   0x0000000000000ee0      0x288 src/simply/simply_window.c.17.o
+ .debug_frame   0x0000000000001168      0x114 src/simply/simply_window_stack.c.17.o
+ .debug_frame   0x000000000000127c       0x54 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(bpabi.o)
+ .debug_frame   0x00000000000012d0       0x38 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000001308       0x38 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivdi3.o)
  .debug_frame   0x0000000000001340       0x20 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a(_udivsi3.o)
