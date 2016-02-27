@@ -211,6 +211,10 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
 #define PAUSE 400
  int speed = 200;
 
+ 
+
+
+
   VibePacket *packet = (VibePacket*) data;
   switch (packet->type) {
     case VibeShort: vibes_short_pulse(); break;
