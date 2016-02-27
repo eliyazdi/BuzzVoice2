@@ -459,6 +459,7 @@ var VibeTypes = [
   '"',
   '@',
   '=',
+  ' ',
 ];
 
 var VibeType = makeArrayType(VibeTypes);

@@ -713,28 +713,27 @@ var morse = {
 */
 
 var vibeText = function(text){
-  console.log(text);
-  Vibe.vibrate('a');
-  Vibe.vibrate('m');
-  /*for(var i=0;i<text.length;i++){
+ 
+ /* Vibe.vibrate('h');
+  Vibe.vibrate('e');
+  Vibe.vibrate('l');
+  Vibe.vibrate('l');
+  Vibe.vibrate('o');*/
+  text.toLowerCase();
+   console.log(text);
+  for(var i=0;i<text.length;i++){
     console.log(i);
     console.log(text.charAt(i));
     //morse[text.charAt(i)]();
     Vibe.vibrate(text.charAt(i)); // this should be made lowercase
-  }*/
+  }
   
 };
 
   main.on('click', 'up', function(e){
   
     
-  /*  morse.a();
-    setTimeout(function(){
-      morse.b();
-    },2250);*/
-       vibeText("a");
-    //morse.y();
-    
+  vibeText('heh');
 
 
   });

@@ -65,12 +65,11 @@ enum VibeType {
   VibeApostrophe = 33,
   VibeHyphen = 34,
   VibeSlash = 35,
-  VibeOpenParentheses = 36,
-  VibeCloseParentheses = 37,
-  VibeQuotes = 38,
-  VibeAt = 39,
-  VibeEquals = 40,
-  VibeSpace = 41,
+  VibeOpenParentheses = 37,
+  VibeCloseParentheses = 38,
+  VibeQuotes = 39,
+  VibeAt = 40,
+  VibeEquals = 41,
 };
 
 typedef enum LightType LightType;
@@ -203,7 +202,9 @@ static void handle_image_packet(Simply *simply, Packet *data) {
 
 static void handle_vibe_packet(Simply *simply, Packet *data) {
 
-
+  int dot = 200;
+int dash = 600;
+int breakvibe = 350;
 
   VibePacket *packet = (VibePacket*) data;
   switch (packet->type) {
@@ -211,7 +212,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
     case VibeLong: vibes_long_pulse(); break;
     case VibeDouble: vibes_double_pulse(); break;
     case VibeA: {
-      static const uint32_t const segments[] = { 200, 350, 600,350 };
+      static const uint32_t const segments[] = { dot, breakvibe, dash };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -221,7 +222,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeB: {
-      static const uint32_t const segments[] = { 600, 350, 200,350,200,350,200,350 };
+      static const uint32_t const segments[] = { dash, breakvibe, dot,breakvibe,dot,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -231,7 +232,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeC: {
-      static const uint32_t const segments[] = { 600, 350, 200,350,600,350,200,350 };
+      static const uint32_t const segments[] = { dash, breakvibe, dot,breakvibe,dash,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -241,7 +242,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeD: {
-      static const uint32_t const segments[] = { 600, 350, 200,350,200,350 };
+      static const uint32_t const segments[] = { dash, breakvibe, dot,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -251,7 +252,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeE: {
-      static const uint32_t const segments[] = { 200 ,350};
+      static const uint32_t const segments[] = { dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -261,7 +262,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeF: {
-      static const uint32_t const segments[] = { 200,350,200,350,600,350,200 ,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dot,breakvibe,dash,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -271,7 +272,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeG: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350 };
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -281,7 +282,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeH: {
-      static const uint32_t const segments[] = { 200,350,200,350,200,350,200,350 };
+      static const uint32_t const segments[] = { dot,breakvibe,dot,breakvibe,dot,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -291,7 +292,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeI: {
-      static const uint32_t const segments[] = { 200,350,200,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -301,7 +302,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeJ: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350,600,350 };
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dash,breakvibe,dash };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -311,7 +312,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeK: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350 };
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dash };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -321,7 +322,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeL: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dot,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -331,7 +332,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeM: {
-      static const uint32_t const segments[] = { 600,350,600,350,350 };
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -341,7 +342,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeN: {
-      static const uint32_t const segments[] = { 600,350,200,350 };
+      static const uint32_t const segments[] = { dash,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -351,7 +352,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }     
     case VibeO: {
-      static const uint32_t const segments[] = { 600,350,600,350,600,350 };
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe,dash };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -361,7 +362,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeP: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350,200,350 };
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dash,breakvibe,dot };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -371,7 +372,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeQ: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,600,350 };
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe,dot,breakvibe,dash };
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -381,7 +382,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeR: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -391,7 +392,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }   
     case VibeS: {
-      static const uint32_t const segments[] = { 200,350,200,350,200,35};
+      static const uint32_t const segments[] = { dot,breakvibe,dot,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -401,7 +402,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeT: {
-      static const uint32_t const segments[] = { 600,350};
+      static const uint32_t const segments[] = { dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -411,7 +412,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeU: {
-      static const uint32_t const segments[] = { 200,350,200,350,600,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -421,7 +422,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }    
     case VibeV: {
-      static const uint32_t const segments[] = { 200,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dot,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -431,7 +432,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeW: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -441,7 +442,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeX: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -451,7 +452,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeY: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350,600,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dash,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -461,7 +462,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }   
     case VibeZ: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe,dot,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -471,7 +472,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }   
     case VibePeriod: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350,600,350,200,350,600,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dot,breakvibe,dash,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -481,7 +482,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeComma: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,200,350,600,350,600,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe,dot,breakvibe,dot,breakvibe,dash,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -491,7 +492,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeColon: {
-      static const uint32_t const segments[] = { 600,350,600,350,600,350,200,350,200,350,200,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe,dash,breakvibe,dot,breakvibe,dot,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -501,7 +502,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeQuestion: {
-      static const uint32_t const segments[] = { 200,350,200,350,600,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dot,breakvibe,dash,breakvibe,dash,breakvibe,dot,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -511,7 +512,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeApostrophe: {
-      static const uint32_t const segments[] = { 600,350,600,350,200,350,200,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dash,breakvibe,dot,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -521,7 +522,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeHyphen: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dot,breakvibe,dot,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -531,7 +532,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeSlash: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,600,350,200,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dot,breakvibe,dash,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -541,7 +542,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }
     case VibeOpenParentheses: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350,600,350,200,350,600,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dash,breakvibe,dash,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -551,7 +552,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeCloseParentheses: {
-      static const uint32_t const segments[] = { 600,350,200,350,600,350,600,350,200,350,600,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dash,breakvibe,dash,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -561,7 +562,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     } 
     case VibeQuotes: {
-      static const uint32_t const segments[] = { 200,350,600,350,200,350,200,350,600,350,200,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dot,breakvibe,dot,breakvibe,dash,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -571,7 +572,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeAt: {
-      static const uint32_t const segments[] = { 200,350,600,350,600,350,200,350,600,350,200,350};
+      static const uint32_t const segments[] = { dot,breakvibe,dash,breakvibe,dash,breakvibe,dot,breakvibe,dash,breakvibe,dot};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -581,7 +582,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       break;
     }  
     case VibeEquals: {
-      static const uint32_t const segments[] = { 600,350,200,350,200,350,200,350,200,350,600,350};
+      static const uint32_t const segments[] = { dash,breakvibe,dot,breakvibe,dot,breakvibe,dot,breakvibe,dot,breakvibe,dash};
       VibePattern pat = {
         .durations = segments,
         .num_segments = ARRAY_LENGTH(segments),
@@ -589,17 +590,7 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       vibes_enqueue_custom_pattern(pat);
       psleep(2000);
       break;
-    }  
-    case VibeSpace: {
-      static const uint32_t const segments[] = { 0,1000};
-      VibePattern pat = {
-        .durations = segments,
-        .num_segments = ARRAY_LENGTH(segments),
-      };
-      vibes_enqueue_custom_pattern(pat);
-      psleep(2000);
-      break;
-    }                                                                                                                           
+    }                                                                                                                       
   }
 }
 
