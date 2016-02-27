@@ -39,14 +39,14 @@ main.on('click', 'select', function(e){
   if (e.err) {
     console.log('Error: ' + e.err);
     return;
-   main.body(e.transcription);
+   
   }
    
 
 
- main.on('click', 'up', function(e){
 
-  vibeText(main.body);
+
+  vibeText(e.transcript);
   }
 
       
