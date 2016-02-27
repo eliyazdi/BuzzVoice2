@@ -52,6 +52,6 @@ main.on('click', 'up', function(e){
   }
       
 
-
+ 
 });
 });
