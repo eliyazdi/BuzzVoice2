@@ -8,7 +8,7 @@
   "resources": {
     "media": [
       {
-        "file": "images/menu_icon.png",
+        "file": "images/BuzzVoiceIcon.png",
         "menuIcon": true,
         "name": "IMAGE_MENU_ICON",
         "type": "bitmap"
@@ -31,7 +31,7 @@
     ]
   },
   "sdkVersion": "3",
-  "shortName": "Pebble.js",
+  "shortName": "BuzzVoice",
   "targetPlatforms": [
     "aplite",
     "basalt",

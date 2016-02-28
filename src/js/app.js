@@ -16,42 +16,37 @@ var main = new UI.Card({
 
 main.show();
 
-
 var Voice = require('ui/voice');
 var Vibe = require('ui/vibe');
 //var Clock = require('clock');
 
-
-
-
-var vibeText = function(text){
+var vibeText = function(text) {
  
- 
-  text = text.toLowerCase();
-   console.log(text);
-  for(var i=0;i<text.length;i++){
-    console.log(i);
-    console.log(text.charAt(i));
-    Vibe.vibrate(text.charAt(i));
+  if (main.body() != 'Press the middle button to start listening.') {
+    text = text.toLowerCase();
+    console.log(text);
+    for(var i=0;i<text.length;i++){
+      console.log(text.charAt(i));
+      Vibe.vibrate(text.charAt(i));
+    }
   }
   
 };
-main.on('click', 'select', function(e){
+
+main.on('click', 'select', function(e) {
 
   Voice.dictate('start', false, function(e) {
-  if (e.err) {
-    console.log('Error: ' + e.err);
-    return;
-  }
-   
- main.body(e.transcription);
+    if (e.err) {
+      console.log('Error: ' + e.err);
+      return;
+    }
+    main.body(e.transcription);
+  });
+  
+});
 
 main.on('click', 'up', function(e){
-
-  vibeText(main.body);
-  }
-      
-
-
-});
+  console.log("main.body: ");
+  console.log(main.body());
+  vibeText(main.body());
 });
