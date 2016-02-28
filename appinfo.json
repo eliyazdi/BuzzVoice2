@@ -3,8 +3,8 @@
   "capabilities": [
     "configurable"
   ],
-  "companyName": "Meiguro",
-  "longName": "Pebble.js",
+  "companyName": "NoName",
+  "longName": "BuzzVoice",
   "resources": {
     "media": [
       {
@@ -33,11 +33,9 @@
   "sdkVersion": "3",
   "shortName": "BuzzVoice",
   "targetPlatforms": [
-    "aplite",
-    "basalt",
-    "chalk"
+    "basalt"
   ],
-  "uuid": "133215f0-cf20-4c05-997b-3c9be5a64e5b",
+  "uuid": "af90156a-7143-45f3-8d2b-8a622b9fb0b6",
   "versionCode": 1,
   "versionLabel": "0.4",
   "watchapp": {
