@@ -596,7 +596,8 @@ static void handle_vibe_packet(Simply *simply, Packet *data) {
       vibes_enqueue_custom_pattern(pat);
       psleep(speed+5600);
       break;
-    }                                                                                                                       
+    }     
+                                                                                                                  
   }
    
 }
