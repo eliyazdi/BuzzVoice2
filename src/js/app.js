@@ -49,4 +49,5 @@ main.on('click', 'up', function(e){
   console.log("main.body: ");
   console.log(main.body());
   vibeText(main.body());
+
 });
